@@ -1,6 +1,5 @@
-package Test;
+package com.mycompany.app;
 import java.io.IOException;
-
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.apache.commons.lang3.RandomStringUtils;
