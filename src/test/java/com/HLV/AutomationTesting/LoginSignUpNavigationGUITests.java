@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package com.HLV.AutomationTesting;
 
 import org.junit.Assert;
 import org.junit.jupiter.api.AfterAll;
@@ -11,9 +11,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-class Test4 {
+class LoginSignUpNavigationGUITests {
 
-	private final static String chromeWebDriverLocation = "C:\\Users\\Aleksandar-PC\\chromedriver_win32\\chromedriver.exe";
+	//private final static String chromeWebDriverLocation = "C:\\Users\\Aleksandar-PC\\chromedriver_win32\\chromedriver.exe";
+	private final static String chromeWebDriverLocation = "C:\\Users\\atatalovic\\chromedriver_win32\\chromedriver.exe";
 	static WebDriver driver;
 	
 	@BeforeAll
