@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="verifySuccessfullLoginActionOnMainPage"/>
+          <include name="verifySuccessfullSignUpAction"/>
         </methods>
       </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTest -->
     </classes>
