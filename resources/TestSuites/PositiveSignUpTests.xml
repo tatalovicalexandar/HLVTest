@@ -15,9 +15,6 @@
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="local.HLVTestApp.loginandsignuptests.PositiveSignUpTests">
-				<!--methods>
-					<include name="verifySuccessfullSignUpAction" />
-				</methods-->
 			</class>
 		</classes>
 	</test>

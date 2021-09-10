@@ -1,6 +1,7 @@
 package local.HLVTestApp.loginandsignuptests;
 
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import local.HLVTestApp.base.BaseTest;
 import local.HLVTestApp.pages.LoginFormPageObject;
@@ -8,21 +9,23 @@ import local.HLVTestApp.pages.ResponsiveSocialLoginFormPageObject;
 
 public class PositiveLoginTests extends BaseTest{
 
+	@Parameters({ "username", "password" })
 	@Test
-	public void verifySuccessfullLoginActionOnMainPage() {
+	public void verifySuccessfullLoginActionOnMainPage(String username, String password) {
 		// Open main page
 		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
 		mainPage.openPage();
 		
 		//Execute login
-		mainPage.logIn("test1", "test1");
+		mainPage.logIn(username, password);
 	
 		// Verification: New URL
 		Assert.assertEquals(mainPage.getCurrentUrl(), mainPage.getPageUrl() + "login");
 	}
 	
+	@Parameters({ "username", "password" })
 	@Test
-	public void verifySuccessfullLoginActionOnLoginPage() {
+	public void verifySuccessfullLoginActionOnLoginPage(String username, String password) {
 		// Open main page
 		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
 		mainPage.openPage();
@@ -31,7 +34,7 @@ public class PositiveLoginTests extends BaseTest{
 		LoginFormPageObject loginForm = mainPage.clickOnLogInButton();
 		
 		// Execute login
-		loginForm.logIn("test1", "test1");
+		loginForm.logIn(username, password);
 		
 		// Verification: New URL
 		Assert.assertEquals(loginForm.getPageUrl(), loginForm.getCurrentUrl());
