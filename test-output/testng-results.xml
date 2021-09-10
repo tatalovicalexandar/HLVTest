@@ -2,12 +2,12 @@
 <testng-results ignored="4" total="8" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-10T13:28:28 CEST" name="PositiveLoginTestSuite" finished-at="2021-09-10T13:28:39 CEST" duration-ms="11828">
+  <suite started-at="2021-09-10T14:12:22 CEST" name="PositiveLoginTestSuite" finished-at="2021-09-10T14:12:34 CEST" duration-ms="12171">
     <groups>
     </groups>
-    <test started-at="2021-09-10T13:28:28 CEST" name="PositiveLoginUsernameOnMainPageTest-CH" finished-at="2021-09-10T13:28:35 CEST" duration-ms="7796">
+    <test started-at="2021-09-10T14:12:22 CEST" name="PositiveLoginUsernameOnMainPageTest-CH" finished-at="2021-09-10T14:12:30 CEST" duration-ms="7806">
       <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@3835c46]" started-at="2021-09-10T13:28:28 CEST" name="setUp" finished-at="2021-09-10T13:28:32 CEST" duration-ms="3985" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@42e99e4a]" started-at="2021-09-10T14:12:22 CEST" name="setUp" finished-at="2021-09-10T14:12:26 CEST" duration-ms="4150" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,14 +16,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@30c15d8b]]>
+                <![CDATA[org.testng.TestRunner@b2c9a9c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfullLoginActionOnMainPage(java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@3835c46]" started-at="2021-09-10T13:28:32 CEST" name="verifySuccessfullLoginActionOnMainPage" finished-at="2021-09-10T13:28:34 CEST" duration-ms="2129" status="FAIL">
+        <test-method signature="verifySuccessfullLoginActionOnMainPage(java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@42e99e4a]" started-at="2021-09-10T14:12:26 CEST" name="verifySuccessfullLoginActionOnMainPage" finished-at="2021-09-10T14:12:28 CEST" duration-ms="2155" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -78,15 +78,15 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfullLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@3835c46]" started-at="2021-09-10T13:28:34 CEST" name="tearDown" finished-at="2021-09-10T13:28:35 CEST" duration-ms="1621" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@42e99e4a]" started-at="2021-09-10T14:12:28 CEST" name="tearDown" finished-at="2021-09-10T14:12:30 CEST" duration-ms="1436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
     </test> <!-- PositiveLoginUsernameOnMainPageTest-CH -->
-    <test started-at="2021-09-10T13:28:28 CEST" name="PositiveLoginPasswordOnLoginPageTest-CH" finished-at="2021-09-10T13:28:35 CEST" duration-ms="7775">
+    <test started-at="2021-09-10T14:12:22 CEST" name="PositiveLoginPasswordOnLoginPageTest-CH" finished-at="2021-09-10T14:12:30 CEST" duration-ms="7920">
       <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@6adbc9d]" started-at="2021-09-10T13:28:28 CEST" name="setUp" finished-at="2021-09-10T13:28:32 CEST" duration-ms="3945" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@409bf450]" started-at="2021-09-10T14:12:22 CEST" name="setUp" finished-at="2021-09-10T14:12:26 CEST" duration-ms="4262" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,14 +95,14 @@ at java.base/java.lang.Thread.run(Thread.java:832)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@6b2ea799]]>
+                <![CDATA[org.testng.TestRunner@fa4c865]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfullLoginActionOnLoginPage(java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@6adbc9d]" started-at="2021-09-10T13:28:32 CEST" name="verifySuccessfullLoginActionOnLoginPage" finished-at="2021-09-10T13:28:34 CEST" duration-ms="2681" status="PASS">
+        <test-method signature="verifySuccessfullLoginActionOnLoginPage(java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@409bf450]" started-at="2021-09-10T14:12:26 CEST" name="verifySuccessfullLoginActionOnLoginPage" finished-at="2021-09-10T14:12:29 CEST" duration-ms="2684" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,15 +118,15 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfullLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@6adbc9d]" started-at="2021-09-10T13:28:34 CEST" name="tearDown" finished-at="2021-09-10T13:28:35 CEST" duration-ms="1083" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@409bf450]" started-at="2021-09-10T14:12:29 CEST" name="tearDown" finished-at="2021-09-10T14:12:30 CEST" duration-ms="920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
     </test> <!-- PositiveLoginPasswordOnLoginPageTest-CH -->
-    <test started-at="2021-09-10T13:28:28 CEST" name="PositiveLoginPasswordOnLoginPageTest-FF" finished-at="2021-09-10T13:28:39 CEST" duration-ms="11812">
+    <test started-at="2021-09-10T14:12:22 CEST" name="PositiveLoginUsernameOnMainPageTest-FF" finished-at="2021-09-10T14:12:34 CEST" duration-ms="12018">
       <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4efbca5a]" started-at="2021-09-10T13:28:28 CEST" name="setUp" finished-at="2021-09-10T13:28:36 CEST" duration-ms="8772" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1283bb96]" started-at="2021-09-10T14:12:22 CEST" name="setUp" finished-at="2021-09-10T14:12:32 CEST" duration-ms="9688" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,54 +135,14 @@ at java.base/java.lang.Thread.run(Thread.java:832)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@411f53a0]]>
+                <![CDATA[org.testng.TestRunner@4c178a76]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfullLoginActionOnLoginPage(java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4efbca5a]" started-at="2021-09-10T13:28:36 CEST" name="verifySuccessfullLoginActionOnLoginPage" finished-at="2021-09-10T13:28:38 CEST" duration-ms="1619" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testUsername1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[testPassword1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySuccessfullLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4efbca5a]" started-at="2021-09-10T13:28:38 CEST" name="tearDown" finished-at="2021-09-10T13:28:39 CEST" duration-ms="1366" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
-    </test> <!-- PositiveLoginPasswordOnLoginPageTest-FF -->
-    <test started-at="2021-09-10T13:28:28 CEST" name="PositiveLoginUsernameOnMainPageTest-FF" finished-at="2021-09-10T13:28:39 CEST" duration-ms="11828">
-      <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@2b662a77]" started-at="2021-09-10T13:28:28 CEST" name="setUp" finished-at="2021-09-10T13:28:37 CEST" duration-ms="9383" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@2b71e916]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfullLoginActionOnMainPage(java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@2b662a77]" started-at="2021-09-10T13:28:37 CEST" name="verifySuccessfullLoginActionOnMainPage" finished-at="2021-09-10T13:28:38 CEST" duration-ms="1052" status="FAIL">
+        <test-method signature="verifySuccessfullLoginActionOnMainPage(java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1283bb96]" started-at="2021-09-10T14:12:32 CEST" name="verifySuccessfullLoginActionOnMainPage" finished-at="2021-09-10T14:12:32 CEST" duration-ms="826" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -237,11 +197,51 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfullLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@2b662a77]" started-at="2021-09-10T13:28:38 CEST" name="tearDown" finished-at="2021-09-10T13:28:39 CEST" duration-ms="1322" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1283bb96]" started-at="2021-09-10T14:12:32 CEST" name="tearDown" finished-at="2021-09-10T14:12:34 CEST" duration-ms="1450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
     </test> <!-- PositiveLoginUsernameOnMainPageTest-FF -->
+    <test started-at="2021-09-10T14:12:22 CEST" name="PositiveLoginPasswordOnLoginPageTest-FF" finished-at="2021-09-10T14:12:34 CEST" duration-ms="12170">
+      <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@689604d9]" started-at="2021-09-10T14:12:22 CEST" name="setUp" finished-at="2021-09-10T14:12:31 CEST" duration-ms="9453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3bd82cf5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfullLoginActionOnLoginPage(java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@689604d9]" started-at="2021-09-10T14:12:31 CEST" name="verifySuccessfullLoginActionOnLoginPage" finished-at="2021-09-10T14:12:33 CEST" duration-ms="1542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUsername1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testPassword1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfullLoginActionOnLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@689604d9]" started-at="2021-09-10T14:12:33 CEST" name="tearDown" finished-at="2021-09-10T14:12:34 CEST" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
+    </test> <!-- PositiveLoginPasswordOnLoginPageTest-FF -->
   </suite> <!-- PositiveLoginTestSuite -->
 </testng-results>
