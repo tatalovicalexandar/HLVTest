@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PositiveLoginTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PositiveLoginTest(failed)">
+    <classes>
+      <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifySuccessfullSignUpAction"/>
+          <include name="verifySuccessfullLoginActionOnMainPage"/>
+        </methods>
+      </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTest -->
+    </classes>
+  </test> <!-- PositiveLoginTest(failed) -->
+</suite> <!-- Failed suite [PositiveLoginTestSuite] -->

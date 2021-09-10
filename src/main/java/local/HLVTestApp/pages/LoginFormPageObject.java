@@ -11,6 +11,8 @@ public class LoginFormPageObject extends BasePageObject{
 	private By formPasswordTextBoxLocator = By.name("password");
 	private By formLogInButtonLocator = By.xpath("//button[@type='submit']");
 	private By formHomeLink = By.xpath("//a[@href='/']");
+	private By formReturnToLoginLink = By.xpath("//a[@href='/login/']");
+	private By message = By.xpath("//h3[1]");
 	
 	public LoginFormPageObject(WebDriver driver) {
 		super(driver);
@@ -31,5 +33,15 @@ public class LoginFormPageObject extends BasePageObject{
 	/** Check if expected HOME link is visible */
 	public boolean isHomeLinkVisible() {
 		return find(formHomeLink).isDisplayed();
+	}
+	
+	/** Check if expected 'Return to Login For' link is visible */
+	public boolean isReturnToLoginLinkVisible() {
+		return find(formReturnToLoginLink).isDisplayed();
+	}
+	
+	/** Return text from message */
+	public String getMessageText() {
+		return find(message).getText();
 	}
 }

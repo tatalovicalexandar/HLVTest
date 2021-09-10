@@ -1,0 +1,82 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="NegativeLoginTestSuite" verbose="1" parallel="tests" thread-count="4">
+
+	<test name="UserRegistrationTest1-CH">
+		<parameter name="firstName" value="testFirstName1"></parameter>
+		<parameter name="lastName" value="testLastName1"></parameter>
+		<parameter name="username" value="testUsername1"></parameter>
+		<parameter name="email" value="test1@hlv.com"></parameter>
+		<parameter name="password" value="testPassword1"></parameter>
+		<parameter name="mobile" value="testMobile1"></parameter>
+		<!--parameter name="expectedMessage" value="User has been successfully registered."></parameter-->
+		<parameter name="expectedSuccessfullMessage" value="User has been successfully registered."></parameter>
+		<parameter name="expectedUnsuccessfullMessage" value="Oops! There is already a user registered with the email provided."></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="local.HLVTestApp.loginandsignuptests.PositiveSignUpTests">
+				<!--methods>
+					<include name="verifySuccessfullSignUpAction" />
+				</methods-->
+			</class>
+		</classes>
+	</test>
+	
+	<test name="UserRegistrationTest2-CH">
+		<parameter name="firstName" value="testFirstName2"></parameter>
+		<parameter name="lastName" value="testLastName2"></parameter>
+		<parameter name="username" value="testUsername2"></parameter>
+		<parameter name="email" value="test2@hlv.com"></parameter>
+		<parameter name="password" value="testPassword2"></parameter>
+		<parameter name="mobile" value="testMobile2"></parameter>
+		<parameter name="expectedSuccessfullMessage" value="User has been successfully registered."></parameter>
+		<parameter name="expectedUnsuccessfullMessage" value="Oops! There is already a user registered with the email provided."></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="local.HLVTestApp.loginandsignuptests.PositiveSignUpTests">
+				<!--methods>
+					<include name="verifySuccessfullSignUpAction" />
+				</methods-->
+			</class>
+		</classes>
+	</test>
+	
+	<test name="UserRegistrationTest3-FF">
+		<parameter name="firstName" value="testFirstName3"></parameter>
+		<parameter name="lastName" value="testLastName3"></parameter>
+		<parameter name="username" value="testUsername3"></parameter>
+		<parameter name="email" value="test3@hlv.com"></parameter>
+		<parameter name="password" value="testPassword3"></parameter>
+		<parameter name="mobile" value="testMobile3"></parameter>
+		<parameter name="expectedSuccessfullMessage" value="User has been successfully registered."></parameter>
+		<parameter name="expectedUnsuccessfullMessage" value="Oops! There is already a user registered with the email provided."></parameter>
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="local.HLVTestApp.loginandsignuptests.PositiveSignUpTests">
+				<!--methods>
+					<include name="verifySuccessfullSignUpAction" />
+				</methods-->
+			</class>
+		</classes>
+	</test>
+	
+	<test name="UserRegistrationTest4-FF">
+		<parameter name="firstName" value="testFirstName4"></parameter>
+		<parameter name="lastName" value="testLastName4"></parameter>
+		<parameter name="username" value="testUsername4"></parameter>
+		<parameter name="email" value="test4@hlv.com"></parameter>
+		<parameter name="password" value="testPassword4"></parameter>
+		<parameter name="mobile" value="testMobile4"></parameter>
+		<parameter name="expectedSuccessfullMessage" value="User has been successfully registered."></parameter>
+		<parameter name="expectedUnsuccessfullMessage" value="Oops! There is already a user registered with the email provided."></parameter>
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="local.HLVTestApp.loginandsignuptests.PositiveSignUpTests">
+				<!--methods>
+					<include name="verifySuccessfullSignUpAction" />
+				</methods-->
+			</class>
+		</classes>
+	</test>
+
+</suite>

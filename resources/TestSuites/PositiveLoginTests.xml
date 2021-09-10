@@ -4,7 +4,7 @@
 	
 	<test name="PositiveLoginTest">
 		<classes>
-			<class name="com.herokuapp.theinternet.loginpagetest.PositiveLoginTests" />
+			<class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests" />
 		</classes>
 	</test>
 	

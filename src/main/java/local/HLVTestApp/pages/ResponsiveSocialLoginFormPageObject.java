@@ -19,6 +19,8 @@ public class ResponsiveSocialLoginFormPageObject extends BasePageObject{
 	private By formLoginWithGooglePlusButtonLocator = By.xpath("//a[@class='google btn']");
 	private By formUsernameTextBoxLocator = By.name("username");
 	private By formPasswordTextBoxLocator = By.name("password");
+	private By formReturnToLoginLink = By.xpath("//a[href='/login/']");
+	private By message = By.xpath("//h3[1]");
 
 	/** Open Responsive Social Login Form Page with it's url */
 	public void openPage() {
@@ -67,5 +69,15 @@ public class ResponsiveSocialLoginFormPageObject extends BasePageObject{
 	/** Get URL variable from PageObject */
 	public String getPageUrl() {
 		return pageUrl;
+	}
+	
+	/** Check if expected 'Return to Login For' link is visible */
+	public boolean isReturnToLoginLinkVisible() {
+		return find(formReturnToLoginLink).isDisplayed();
+	}
+	
+	/** Return text from message */
+	public String getMessageText() {
+		return find(message).getText();
 	}
 }
