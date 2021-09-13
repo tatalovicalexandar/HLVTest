@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>NegativeLoginUsernameOnMainPageTest-FF</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Sep 10 11:26:51 CEST 2021</td>
+<td>Started on:</td><td>Mon Sep 13 15:37:33 CEST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>28 seconds (28686 ms)</td>
+<tr><td>Total time:</td><td>14 seconds (14084 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,21 +77,21 @@ function toggleAllBoxes() {
 <tr>
 <td title='local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfullLoginActionOnMainPage()'><b>verifyUnsuccessfullLoginActionOnMainPage</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeLoginTests<br>Parameters: incorrectUsername, testPassword1, Invalid Email. Try again.</td>
 <td><div><pre>java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=incorrectUsername&amp;password=testPassword1]
-	at local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfullLoginActionOnMainPage(NegativeLoginTests.java:23)
+	at local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfullLoginActionOnMainPage(NegativeLoginTests.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1063443986", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1063443986'><pre>java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=incorrectUsername&amp;password=testPassword1]
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1545023300", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1545023300'><pre>java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=incorrectUsername&amp;password=testPassword1]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
-	at local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfullLoginActionOnMainPage(NegativeLoginTests.java:23)
+	at local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfullLoginActionOnMainPage(NegativeLoginTests.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -116,89 +116,21 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
-<td>1</td>
-<td>local.HLVTestApp.loginandsignuptests.NegativeLoginTests@77847718</td></tr>
+<td>0</td>
+<td>local.HLVTestApp.loginandsignuptests.NegativeLoginTests@6f43c82</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
 <td title='local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfullLoginActionOnLoginPage()'><b>verifyUnsuccessfullLoginActionOnLoginPage</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeLoginTests<br>Parameters: incorrectUsername, testPassword1, Invalid Email. Try again.</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@href=&apos;/login/&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
-System info: host: &apos;SIXNS289&apos;, ip: &apos;10.42.50.239&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [dc8f19af-b7c1-4ff1-bc91-2e17c7ae02a3, findElement {using=xpath, value=//a[@href=&apos;/login/&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:debuggerAddress: localhost:59823, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 11348, moz:profile: C:\Users\atatalovic\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:59823/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: dc8f19af-b7c1-4ff1-bc91-2e17c7ae02a3
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
-	at org.openqa.selenium.remote.RemoteWebDriver$Mechanism$2.findElement(RemoteWebDriver.java:1251)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:373)
-	at local.HLVTestApp.pages.BasePageObject.find(BasePageObject.java:28)
-	at local.HLVTestApp.pages.LoginFormPageObject.isReturnToLoginLinkVisible(LoginFormPageObject.java:40)
-	at local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfullLoginActionOnLoginPage(NegativeLoginTests.java:50)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1249808812", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1249808812'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@href=&apos;/login/&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
-System info: host: &apos;SIXNS289&apos;, ip: &apos;10.42.50.239&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [dc8f19af-b7c1-4ff1-bc91-2e17c7ae02a3, findElement {using=xpath, value=//a[@href=&apos;/login/&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:debuggerAddress: localhost:59823, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 11348, moz:profile: C:\Users\atatalovic\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:59823/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: dc8f19af-b7c1-4ff1-bc91-2e17c7ae02a3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
-	at org.openqa.selenium.remote.RemoteWebDriver$Mechanism$2.findElement(RemoteWebDriver.java:1251)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:373)
-	at local.HLVTestApp.pages.BasePageObject.find(BasePageObject.java:28)
-	at local.HLVTestApp.pages.LoginFormPageObject.isReturnToLoginLinkVisible(LoginFormPageObject.java:40)
-	at local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfullLoginActionOnLoginPage(NegativeLoginTests.java:50)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-</pre></div></td>
-<td>7</td>
-<td>local.HLVTestApp.loginandsignuptests.NegativeLoginTests@77847718</td></tr>
+<td></td>
+<td>1</td>
+<td>local.HLVTestApp.loginandsignuptests.NegativeLoginTests@6f43c82</td></tr>
 </table><p>
 </body>
 </html>

@@ -12,6 +12,10 @@ public class PositiveLoginTests extends BaseTest{
 	@Parameters({ "username", "password" })
 	@Test
 	public void verifySuccessfullLoginActionOnMainPage(String username, String password) {
+		
+		// Include test in test report
+		test = report.createTest("verifySuccessfullLoginActionOnMainPage");
+				
 		// Open main page
 		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
 		mainPage.openPage();
@@ -26,6 +30,10 @@ public class PositiveLoginTests extends BaseTest{
 	@Parameters({ "username", "password" })
 	@Test
 	public void verifySuccessfullLoginActionOnLoginPage(String username, String password) {
+		
+		// Include test in test report
+		test = report.createTest("verifySuccessfullLoginActionOnLoginPage");
+				
 		// Open main page
 		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
 		mainPage.openPage();

@@ -13,6 +13,10 @@ public class NegativeSignUpTests extends PositiveSignUpTests{
 	@Parameters({ "firstName", "lastName", "username", "email", "password", "mobile", "expectedSuccessfullMessage", "expectedUnsuccessfullMessage" })
 	@Test(description="User already exist", dependsOnMethods = { "verifySuccessfullSignUpAction" })
 	public void verifyUnsuccessfullSignUpAction(String firstName, String lastName, String username, String email, String password, String mobile, String expectedSuccessfullMessage, String expectedUnsuccessfullMessage) {
+		
+		// Include test in test report
+		test = report.createTest("verifyUnsuccessfullSignUpAction");
+		
 		// Open main page
 		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
 		mainPage.openPage();

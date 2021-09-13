@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Sep 10 12:55:14 CEST 2021</td>
+<td>Started on:</td><td>Mon Sep 13 00:54:55 CEST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9439 ms)</td>
+<tr><td>Total time:</td><td>13 seconds (13902 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,57 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='local.HLVTestApp.loginandsignuptests.NegativeSignUpTests.tearDown()'><b>tearDown</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeSignUpTests</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;SIXNS289&apos;, ip: &apos;192.168.41.24&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [28307fb7-d364-432b-88c4-9a4ecfe94f80, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:debuggerAddress: localhost:60960, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 12472, moz:profile: C:\Users\atatalovic\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:60960/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:102)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1643314070", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1643314070'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;SIXNS289&apos;, ip: &apos;192.168.41.24&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [28307fb7-d364-432b-88c4-9a4ecfe94f80, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:debuggerAddress: localhost:60960, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 12472, moz:profile: C:\Users\atatalovic\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:60960/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:102)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>1</td>
+<td>local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@7857fe2</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,22 +127,61 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='local.HLVTestApp.loginandsignuptests.NegativeSignUpTests.verifySuccessfullSignUpAction()'><b>verifySuccessfullSignUpAction</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeSignUpTests<br>Parameters: testFirstName2, testLastName2, testUsername2, test2@hlv.com, testPassword2, testMobile2, User has been successfully registered., Oops! There is already a user registered with the email provided.</td>
-<td><div><pre>java.lang.AssertionError: expected [Oops! There is already a user registered with the email provided.] but found [User has been successfully registered.]
-	at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfullSignUpAction(PositiveSignUpTests.java:35)
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;SIXNS289&apos;, ip: &apos;192.168.41.24&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [66abc2f6f82b843c09023445d2250490, clickElement {id=d4f382b4-3061-4745-8d6f-0cea91a42b1e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\ATATAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55436/devtoo..., se:cdpVersion: 93.0.4577.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (66abc2f6f82b843c09023445d2250490)] -&gt; css selector: a[href = &apos;signup&apos;]]
+Session ID: 66abc2f6f82b843c09023445d2250490
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:235)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:73)
+	at local.HLVTestApp.pages.BasePageObject.click(BasePageObject.java:39)
+	at local.HLVTestApp.pages.ResponsiveSocialLoginFormPageObject.clickOnSignUpButton(ResponsiveSocialLoginFormPageObject.java:58)
+	at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfullSignUpAction(PositiveSignUpTests.java:25)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1759425771", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1759425771'><pre>java.lang.AssertionError: expected [Oops! There is already a user registered with the email provided.] but found [User has been successfully registered.]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfullSignUpAction(PositiveSignUpTests.java:35)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1443577503", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1443577503'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;SIXNS289&apos;, ip: &apos;192.168.41.24&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [66abc2f6f82b843c09023445d2250490, clickElement {id=d4f382b4-3061-4745-8d6f-0cea91a42b1e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\ATATAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55436/devtoo..., se:cdpVersion: 93.0.4577.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (66abc2f6f82b843c09023445d2250490)] -&gt; css selector: a[href = &apos;signup&apos;]]
+Session ID: 66abc2f6f82b843c09023445d2250490
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:235)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:73)
+	at local.HLVTestApp.pages.BasePageObject.click(BasePageObject.java:39)
+	at local.HLVTestApp.pages.ResponsiveSocialLoginFormPageObject.clickOnSignUpButton(ResponsiveSocialLoginFormPageObject.java:58)
+	at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfullSignUpAction(PositiveSignUpTests.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -116,8 +206,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
-<td>3</td>
-<td>local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4550bb58</td></tr>
+<td>6</td>
+<td>local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@7857fe2</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -128,14 +218,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='local.HLVTestApp.loginandsignuptests.NegativeSignUpTests.verifyUnsuccessfullSignUpAction()'><b>verifyUnsuccessfullSignUpAction</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeSignUpTests<br>Test method: User already exist</td>
-<td><div><pre>java.lang.Throwable: Method NegativeSignUpTests.verifyUnsuccessfullSignUpAction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4550bb58] depends on not successfully finished methods
+<td><div><pre>java.lang.Throwable: Method NegativeSignUpTests.verifyUnsuccessfullSignUpAction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@7857fe2] depends on not successfully finished methods
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace648536441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace648536441'><pre>java.lang.Throwable: Method NegativeSignUpTests.verifyUnsuccessfullSignUpAction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4550bb58] depends on not successfully finished methods
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1923649215", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1923649215'><pre>java.lang.Throwable: Method NegativeSignUpTests.verifyUnsuccessfullSignUpAction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@7857fe2] depends on not successfully finished methods
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -152,7 +242,7 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4550bb58</td></tr>
+<td>local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@7857fe2</td></tr>
 </table><p>
 </body>
 </html>

@@ -13,6 +13,10 @@ public class NegativeLoginTests extends BaseTest{
 	@Parameters({ "username", "password", "expectedMessage" })
 	@Test
 	public void verifyUnsuccessfullLoginActionOnMainPage(String username, String password, String expectedErrorMessage) {
+		
+		// Include test in test report
+		test = report.createTest("verifyUnsuccessfullLoginActionOnMainPage");
+		
 		// Open main page
 		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
 		mainPage.openPage();
@@ -33,6 +37,10 @@ public class NegativeLoginTests extends BaseTest{
 	@Parameters({ "username", "password", "expectedMessage" })
 	@Test
 	public void verifyUnsuccessfullLoginActionOnLoginPage(String username, String password, String expectedErrorMessage) {
+		
+		// Include test in test report
+		test = report.createTest("verifyUnsuccessfullLoginActionOnLoginPage");
+				
 		// Open main page
 		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
 		mainPage.openPage();

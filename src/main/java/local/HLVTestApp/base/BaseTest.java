@@ -6,12 +6,21 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import local.HLVTestApp.reports.ExtentReporting;
 
 
 public class BaseTest {
 
-	protected WebDriver driver;
+	protected static WebDriver driver;
 	protected String testName;
+	
+	//get the reference of ExtentReports object to instantiate HTML reporting
+    public static ExtentReports report = ExtentReporting.getExtentReportInstance();
+    
+    //indicate which test to include in report
+    public static ExtentTest test;
 	
 	@Parameters({ "browser" })
 	@BeforeMethod(alwaysRun=true)
@@ -28,10 +37,10 @@ public class BaseTest {
 	public void tearDown() {
 		// Close browser
 		driver.quit();
+		//report.flush();
 	}
 	
 	public String getCurrentTestNameFromXml() {
 		return this.testName;
 	}
-
 }

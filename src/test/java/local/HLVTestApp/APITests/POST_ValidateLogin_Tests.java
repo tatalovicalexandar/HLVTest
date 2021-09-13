@@ -13,7 +13,7 @@ public class POST_ValidateLogin_Tests {
 	@Test
 	void POST_validateSuccessfullLogin() {
 		
-		RestAssured.baseURI ="http://localhost:8080/users";
+		RestAssured.baseURI ="http://localhost:8080";
 		RequestSpecification request = RestAssured.given();
 		
 		// JSONObject is a class that represents a Simple JSON.
@@ -31,7 +31,7 @@ public class POST_ValidateLogin_Tests {
 		request.body(requestParams.toString());
 
 		// Post the request and check the response
-		Response response = request.post("/login");
+		Response response = request.post("/users/login");
 		
 		Assert.assertEquals(response.getStatusCode(), HttpStatus.SC_OK);
 	}
@@ -39,7 +39,7 @@ public class POST_ValidateLogin_Tests {
 	@Test
 	void POST_validateUnsuccessfullLoginWrongUsername() {
 		
-		RestAssured.baseURI ="http://localhost:8080/users";
+		RestAssured.baseURI ="http://localhost:8080";
 		RequestSpecification request = RestAssured.given();
 		
 		// JSONObject is a class that represents a Simple JSON.
@@ -57,7 +57,7 @@ public class POST_ValidateLogin_Tests {
 		request.body(requestParams.toString());
 
 		// Post the request and check the response
-		Response response = request.post("/login");
+		Response response = request.post("/users/login");
 		
 		//Assert.assertEquals(response.getStatusCode(), HttpStatus.SC_NOT_FOUND);
 		Assert.assertEquals(response.getStatusCode(), HttpStatus.SC_EXPECTATION_FAILED);

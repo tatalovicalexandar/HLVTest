@@ -13,6 +13,10 @@ public class PositiveSignUpTests extends BaseTest{
 	@Parameters({ "firstName", "lastName", "username", "email", "password", "mobile", "expectedSuccessfullMessage", "expectedUnsuccessfullMessage"  })
 	@Test
 	public void verifySuccessfullSignUpAction(String firstName, String lastName, String username, String email, String password, String mobile, String expectedSuccessfullMessage, String expectedUnsuccessfullMessage) {
+		
+		// Include test in test report
+		test = report.createTest("verifySuccessfullSignUpAction");
+		
 		// Open main page
 		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
 		mainPage.openPage();

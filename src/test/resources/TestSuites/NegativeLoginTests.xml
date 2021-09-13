@@ -2,6 +2,10 @@
 
 <suite name="NegativeLoginUsernameOnMainPageTestSuite" verbose="1" parallel="tests" thread-count="4">
 
+	<listeners>
+		<listener class-name="local.HLVTestApp.listeners.TestListener"></listener>
+	</listeners>
+
 	<test name="NegativeLoginUsernameTest-CH">
 		<parameter name="username" value="incorrectUsername"></parameter>
 		<parameter name="password" value="testPassword1"></parameter>

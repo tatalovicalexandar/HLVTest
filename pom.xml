@@ -81,6 +81,13 @@
 			    <artifactId>json</artifactId>
 			    <version>20210307</version>
 			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+			<dependency>
+			    <groupId>com.aventstack</groupId>
+			    <artifactId>extentreports</artifactId>
+			    <version>5.0.8</version>
+			</dependency>
+		
 			
 	  </dependencies>
     

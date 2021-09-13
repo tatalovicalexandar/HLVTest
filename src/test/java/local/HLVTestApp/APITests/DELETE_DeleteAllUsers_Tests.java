@@ -12,13 +12,7 @@ public class DELETE_DeleteAllUsers_Tests {
 	void DELETE_DeleteAllUsers() {
 		Response response = RestAssured.delete("http://localhost:8080/users/deleteAllUsers");
 		
-		System.out.println("Body: " + response.getBody().asString());
-		System.out.println("Content-Type: " + response.getHeader("Content-Type"));
-		System.out.println("Content-Length: " + response.getHeader("Content-Length"));
-		
-		
 		Assert.assertEquals(response.getStatusCode(), HttpStatus.SC_OK);
-		
 		Assert.assertEquals(response.getBody().asString(), "All users removed");
 	}
 }

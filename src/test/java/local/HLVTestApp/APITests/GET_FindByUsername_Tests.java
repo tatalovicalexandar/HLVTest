@@ -10,7 +10,7 @@ public class GET_FindByUsername_Tests {
 	
 	@Test
 	void GET_findByExistingUsername() {
-		Response response = RestAssured.get("http://localhost:8080/users/testUsername1");
+		Response response = RestAssured.get("http://localhost:8080/users/test51");
 		
 		System.out.println("Respose.asString: " + response.asString());
 		System.out.println("Body: " + response.getBody().asString());

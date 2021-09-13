@@ -2,6 +2,10 @@
 
 <suite name="PositiveLoginTestSuite" parallel="tests" verbose="1">
 	
+		<listeners>
+			<listener class-name="local.HLVTestApp.listeners.TestListener"></listener>
+		</listeners>
+	
 		<test name="PositiveLoginUsernameOnMainPageTest-CH">
 			<parameter name="username" value="testUsername1"></parameter>
 			<parameter name="password" value="testPassword1"></parameter>

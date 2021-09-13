@@ -1,48 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="4" parallel="tests" name="Failed suite [NegativeLoginTestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="4" parallel="tests" name="UserRegistrationTest1-CH(failed)">
-    <parameter name="firstName" value="testFirstName1"/>
-    <parameter name="lastName" value="testLastName1"/>
-    <parameter name="expectedSuccessfullMessage" value="User has been successfully registered."/>
-    <parameter name="password" value="testPassword1"/>
-    <parameter name="browser" value="chrome"/>
-    <parameter name="mobile" value="testMobile1"/>
-    <parameter name="expectedUnsuccessfullMessage" value="Oops! There is already a user registered with the email provided."/>
-    <parameter name="email" value="test1@hlv.com"/>
-    <parameter name="username" value="testUsername1"/>
-    <classes>
-      <class name="local.HLVTestApp.loginandsignuptests.NegativeSignUpTests">
-        <methods>
-          <include name="verifySuccessfullSignUpAction" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="verifyUnsuccessfullSignUpAction"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeSignUpTests -->
-    </classes>
-  </test> <!-- UserRegistrationTest1-CH(failed) -->
-  <test thread-count="4" parallel="tests" name="UserRegistrationTest2-CH(failed)">
-    <parameter name="firstName" value="testFirstName2"/>
-    <parameter name="lastName" value="testLastName2"/>
-    <parameter name="expectedSuccessfullMessage" value="User has been successfully registered."/>
-    <parameter name="password" value="testPassword2"/>
-    <parameter name="browser" value="chrome"/>
-    <parameter name="mobile" value="testMobile2"/>
-    <parameter name="expectedUnsuccessfullMessage" value="Oops! There is already a user registered with the email provided."/>
-    <parameter name="email" value="test2@hlv.com"/>
-    <parameter name="username" value="testUsername2"/>
-    <classes>
-      <class name="local.HLVTestApp.loginandsignuptests.NegativeSignUpTests">
-        <methods>
-          <include name="verifySuccessfullSignUpAction" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="verifyUnsuccessfullSignUpAction"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeSignUpTests -->
-    </classes>
-  </test> <!-- UserRegistrationTest2-CH(failed) -->
   <test thread-count="4" parallel="tests" name="UserRegistrationTest4-FF(failed)">
     <parameter name="firstName" value="testFirstName4"/>
     <parameter name="lastName" value="testLastName4"/>
@@ -85,4 +43,25 @@
       </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeSignUpTests -->
     </classes>
   </test> <!-- UserRegistrationTest3-FF(failed) -->
+  <test thread-count="4" parallel="tests" name="UserRegistrationTest2-CH(failed)">
+    <parameter name="firstName" value="testFirstName2"/>
+    <parameter name="lastName" value="testLastName2"/>
+    <parameter name="expectedSuccessfullMessage" value="User has been successfully registered."/>
+    <parameter name="password" value="testPassword2"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="mobile" value="testMobile2"/>
+    <parameter name="expectedUnsuccessfullMessage" value="Oops! There is already a user registered with the email provided."/>
+    <parameter name="email" value="test2@hlv.com"/>
+    <parameter name="username" value="testUsername2"/>
+    <classes>
+      <class name="local.HLVTestApp.loginandsignuptests.NegativeSignUpTests">
+        <methods>
+          <include name="verifySuccessfullSignUpAction" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="verifyUnsuccessfullSignUpAction"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeSignUpTests -->
+    </classes>
+  </test> <!-- UserRegistrationTest2-CH(failed) -->
 </suite> <!-- Failed suite [NegativeLoginTestSuite] -->
