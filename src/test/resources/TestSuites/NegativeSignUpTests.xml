@@ -5,7 +5,16 @@
 	<listeners>
 		<listener class-name="local.HLVTestApp.listeners.TestListener"></listener>
 	</listeners>
+	
+	<test name="UserRegistrationTest1-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="local.HLVTestApp.loginandsignuptests.NegativeSignUpTests">
+			</class>
+		</classes>
+	</test>
 
+	<!-- 
 	<test name="UserRegistrationTest1-CH">
 		<parameter name="firstName" value="testFirstName1"></parameter>
 		<parameter name="lastName" value="testLastName1"></parameter>
@@ -69,5 +78,6 @@
 			</class>
 		</classes>
 	</test>
+	-->
 
 </suite>

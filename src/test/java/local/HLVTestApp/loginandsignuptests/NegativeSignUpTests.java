@@ -1,21 +1,32 @@
 package local.HLVTestApp.loginandsignuptests;
 
+import java.util.Map;
+
 import org.testng.Assert;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import local.HLVTestApp.base.BaseTest; // DO NOT REMOVE THIS IMPORT - This import is necessary in order to execute getCurrentTestNameFromXml() method from BaseTest class
+import local.HLVTestApp.base.CsvDataProviders;
 import local.HLVTestApp.pages.FinalSignUpPageObject;
 import local.HLVTestApp.pages.ResponsiveSocialLoginFormPageObject;
 import local.HLVTestApp.pages.SignUpPageObject;
 
 public class NegativeSignUpTests extends PositiveSignUpTests{
 	
-	@Parameters({ "firstName", "lastName", "username", "email", "password", "mobile", "expectedSuccessfullMessage", "expectedUnsuccessfullMessage" })
-	@Test(description="User already exist", dependsOnMethods = { "verifySuccessfullSignUpAction" })
-	public void verifyUnsuccessfullSignUpAction(String firstName, String lastName, String username, String email, String password, String mobile, String expectedSuccessfullMessage, String expectedUnsuccessfullMessage) {
+	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class, description="User already exist", dependsOnMethods = { "verifySuccessfulSignUpAction" })
+	public void verifyUnsuccessfulSignUpAction(Map<String, String> testData) {
+		
+		// Data from data provider
+		//String no = testData.get("no");
+		String firstName = testData.get("firstName");
+		String lastName = testData.get("lastName");
+		String username = testData.get("username");
+		String email = testData.get("email");
+		String password = testData.get("password");
+		String mobile = testData.get("mobile");
+		String expectedSuccessfulMessage = testData.get("expectedSuccessfulMessage");
+		String expectedUnsuccessfulMessage = testData.get("expectedUnsuccessfulMessage");
 		
 		// Include test in test report
-		test = report.createTest("verifyUnsuccessfullSignUpAction");
+		test = report.createTest("verifyUnsuccessfulSignUpAction");
 		
 		// Open main page
 		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
@@ -36,10 +47,10 @@ public class NegativeSignUpTests extends PositiveSignUpTests{
 		// Unsuccessful sign up message
 		String textName = super.getCurrentTestNameFromXml();
 		String expectedMessage;
-		if(textName == "verifySuccessfullSignUpAction")
-			expectedMessage = expectedSuccessfullMessage;
+		if(textName == "verifySuccessfulSignUpAction")
+			expectedMessage = expectedSuccessfulMessage;
 		else
-			expectedMessage = expectedUnsuccessfullMessage;
+			expectedMessage = expectedUnsuccessfulMessage;
 			
 		String actualUnsuccessMessage = finalSignUpPage.getMessageText();
 		Assert.assertEquals(expectedMessage, actualUnsuccessMessage);

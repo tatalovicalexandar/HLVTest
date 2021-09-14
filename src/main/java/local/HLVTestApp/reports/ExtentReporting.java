@@ -9,7 +9,7 @@ public class ExtentReporting {
     // This is used to provide/add information to the HTML report
     public static ExtentReports extent;
     
-    // Builds a new report using the html template 
+    // Builds a new report using the spark template 
     public static ExtentSparkReporter spark;
 
     public static ExtentReports getExtentReportInstance() {

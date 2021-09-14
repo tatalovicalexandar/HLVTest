@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="FindByUsernameTestSuite" parallel="tests" verbose="1">
+		
+	<test name="FindByUsernameTests">
+		<classes>
+			<class name="local.HLVTestApp.APITests.API_FindByUsernameTests">
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,25 +1,33 @@
 package local.HLVTestApp.loginandsignuptests;
 
+import java.util.Map;
 import org.testng.Assert;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import local.HLVTestApp.base.BaseTest;
+import local.HLVTestApp.base.CsvDataProviders;
 import local.HLVTestApp.pages.LoginFormPageObject;
 import local.HLVTestApp.pages.ResponsiveSocialLoginFormPageObject;
 
 public class NegativeLoginTests extends BaseTest{
 	
 
-	@Parameters({ "username", "password", "expectedMessage" })
-	@Test
-	public void verifyUnsuccessfullLoginActionOnMainPage(String username, String password, String expectedErrorMessage) {
+	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)
+	public void verifyUnsuccessfulLoginActionOnMainPage(Map<String, String> testData) {
+		
+		// Data from data provider
+		//String no = testData.get("no");
+		String username = testData.get("username");
+		String password = testData.get("password");
+		String expectedErrorMessage = testData.get("expectedMessage"); 
+		//String description = testData.get("description");
 		
 		// Include test in test report
-		test = report.createTest("verifyUnsuccessfullLoginActionOnMainPage");
+		test = report.createTest("verifyUnsuccessfulLoginActionOnMainPage");
 		
 		// Open main page
 		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
 		mainPage.openPage();
+		
 		//Execute login
 		mainPage.logIn(username, password);
 	
@@ -29,17 +37,23 @@ public class NegativeLoginTests extends BaseTest{
 		// Verification: Return to Login Link is visible
 		Assert.assertTrue(mainPage.isReturnToLoginLinkVisible(), "Return to Login link is visible.");
 		
-		// Successful sign up message
-		String actualSuccessMessage = mainPage.getMessageText();
-		Assert.assertEquals(expectedErrorMessage, actualSuccessMessage);
+		// Unsuccessful login message
+		String actualUnsuccessfulMessage = mainPage.getMessageText();
+		Assert.assertEquals(expectedErrorMessage, actualUnsuccessfulMessage);
 	}
 	
-	@Parameters({ "username", "password", "expectedMessage" })
-	@Test
-	public void verifyUnsuccessfullLoginActionOnLoginPage(String username, String password, String expectedErrorMessage) {
+	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)
+	public void verifyUnsuccessfulLoginActionOnLoginPage(Map<String, String> testData) {
+		
+		// Data from data provider
+		//String no = testData.get("no");
+		String username = testData.get("username");
+		String password = testData.get("password");
+		String expectedErrorMessage = testData.get("expectedMessage"); 
+		//String description = testData.get("description");
 		
 		// Include test in test report
-		test = report.createTest("verifyUnsuccessfullLoginActionOnLoginPage");
+		test = report.createTest("verifyUnsuccessfulLoginActionOnLoginPage");
 				
 		// Open main page
 		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
@@ -57,8 +71,8 @@ public class NegativeLoginTests extends BaseTest{
 		// Verification: Return to Login Link is visible
 		Assert.assertTrue(loginForm.isReturnToLoginLinkVisible(), "Return to Login link is visible.");
 		
-		// Successful sign up message
-		String actualSuccessMessage = loginForm.getMessageText();
-		Assert.assertEquals(expectedErrorMessage, actualSuccessMessage);
+		// Unsuccessful login message
+		String actualUnsuccessfulMessage = loginForm.getMessageText();
+		Assert.assertEquals(expectedErrorMessage, actualUnsuccessfulMessage);
 	}
 }

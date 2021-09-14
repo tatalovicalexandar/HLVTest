@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [DeleteByUsernameTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="DeleteByUsernameTests(failed)">
+    <classes>
+      <class name="local.HLVTestApp.APITests.API_DeleteByUsernameTests">
+        <methods>
+          <include name="API_DeleteByUsername" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- local.HLVTestApp.APITests.API_DeleteByUsernameTests -->
+    </classes>
+  </test> <!-- DeleteByUsernameTests(failed) -->
+</suite> <!-- Failed suite [DeleteByUsernameTestSuite] -->

@@ -37,7 +37,6 @@ public class BaseTest {
 	public void tearDown() {
 		// Close browser
 		driver.quit();
-		//report.flush();
 	}
 	
 	public String getCurrentTestNameFromXml() {

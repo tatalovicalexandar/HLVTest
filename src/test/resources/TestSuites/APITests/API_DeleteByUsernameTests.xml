@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="DeleteByUsernameTestSuite" parallel="tests" verbose="1">
+		
+	<test name="DeleteByUsernameTests">
+		<classes>
+			<class name="local.HLVTestApp.APITests.API_DeleteByUsernameTests">
+			</class>
+		</classes>
+	</test>
+</suite>

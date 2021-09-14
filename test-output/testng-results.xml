@@ -1,167 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="1" failed="5" skipped="0">
+<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-13T15:37:33 CEST" name="NegativeLoginUsernameOnMainPageTestSuite" finished-at="2021-09-13T15:37:49 CEST" duration-ms="15595">
+  <suite started-at="2021-09-14T19:41:59 CEST" name="FindByUsernameTestSuite" finished-at="2021-09-14T19:42:00 CEST" duration-ms="1420">
     <groups>
     </groups>
-    <test started-at="2021-09-13T15:37:33 CEST" name="NegativeLoginPasswordOnMainPageTest-CH" finished-at="2021-09-13T15:37:43 CEST" duration-ms="9776">
-      <class name="local.HLVTestApp.loginandsignuptests.NegativeLoginTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@6f15d60e]" started-at="2021-09-13T15:37:33 CEST" name="setUp" finished-at="2021-09-13T15:37:36 CEST" duration-ms="2778" status="PASS">
+    <test started-at="2021-09-14T19:41:59 CEST" name="FindByUsernameTests" finished-at="2021-09-14T19:42:00 CEST" duration-ms="1420">
+      <class name="local.HLVTestApp.APITests.API_FindByUsernameTests">
+        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@f5ac9e4]" started-at="2021-09-14T19:41:59 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-14T19:42:00 CEST" duration-ms="1183" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@78452606]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfullLoginActionOnLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@6f15d60e]" started-at="2021-09-13T15:37:36 CEST" name="verifyUnsuccessfullLoginActionOnLoginPage" finished-at="2021-09-13T15:37:37 CEST" duration-ms="1018" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testUsername1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[incorrectPassword]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid Email. Try again.]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=93.0.4577.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
-System info: host: 'SIXNS289', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [75acdf07baa0a7a318572ce0ada66abe, clickElement {id=7e11c8f0-0c33-4d04-84b7-a995cfd18b62}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\ATATAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56409}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56409/devtoo..., se:cdpVersion: 93.0.4577.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (75acdf07baa0a7a318572ce0ada66abe)] -> css selector: a[href = 'login']]
-Session ID: 75acdf07baa0a7a318572ce0ada66abe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=93.0.4577.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
-System info: host: 'SIXNS289', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [75acdf07baa0a7a318572ce0ada66abe, clickElement {id=7e11c8f0-0c33-4d04-84b7-a995cfd18b62}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\ATATAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56409}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56409/devtoo..., se:cdpVersion: 93.0.4577.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (75acdf07baa0a7a318572ce0ada66abe)] -> css selector: a[href = 'login']]
-Session ID: 75acdf07baa0a7a318572ce0ada66abe
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:235)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:73)
-at local.HLVTestApp.pages.BasePageObject.click(BasePageObject.java:39)
-at local.HLVTestApp.pages.ResponsiveSocialLoginFormPageObject.clickOnLogInButton(ResponsiveSocialLoginFormPageObject.java:52)
-at local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfullLoginActionOnLoginPage(NegativeLoginTests.java:49)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUnsuccessfullLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@6f15d60e]" started-at="2021-09-13T15:37:39 CEST" name="tearDown" finished-at="2021-09-13T15:37:39 CEST" duration-ms="441" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@6f15d60e]" started-at="2021-09-13T15:37:39 CEST" name="setUp" finished-at="2021-09-13T15:37:41 CEST" duration-ms="2064" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@78452606]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfullLoginActionOnMainPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@6f15d60e]" started-at="2021-09-13T15:37:41 CEST" name="verifyUnsuccessfullLoginActionOnMainPage" finished-at="2021-09-13T15:37:42 CEST" duration-ms="1156" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testUsername1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[incorrectPassword]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid Email. Try again.]]>
+                <![CDATA[{no=1, bodyFirstName=firstName":"test1, description=get user - valid 1, bodyLastName=lastName":"test1, username=test1, statusCode=200, bodyUsername=username":"test1}]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername1&password=incorrectPassword]]]>
+              <![CDATA[expected [200] but found [404]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername1&password=incorrectPassword]
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfullLoginActionOnMainPage(NegativeLoginTests.java:27)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername(API_FindByUsernameTests.java:27)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -190,103 +56,28 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUnsuccessfullLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@6f15d60e]" started-at="2021-09-13T15:37:42 CEST" name="tearDown" finished-at="2021-09-13T15:37:43 CEST" duration-ms="672" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeLoginTests -->
-    </test> <!-- NegativeLoginPasswordOnMainPageTest-CH -->
-    <test started-at="2021-09-13T15:37:33 CEST" name="NegativeLoginUsernameOnMainPageTest-FF" finished-at="2021-09-13T15:37:47 CEST" duration-ms="14084">
-      <class name="local.HLVTestApp.loginandsignuptests.NegativeLoginTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@6f43c82]" started-at="2021-09-13T15:37:33 CEST" name="setUp" finished-at="2021-09-13T15:37:39 CEST" duration-ms="5936" status="PASS">
+        </test-method> <!-- API_FindByUsername -->
+        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@f5ac9e4]" started-at="2021-09-14T19:42:00 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-14T19:42:00 CEST" duration-ms="26" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@15d49048]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfullLoginActionOnLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@6f43c82]" started-at="2021-09-13T15:37:39 CEST" name="verifyUnsuccessfullLoginActionOnLoginPage" finished-at="2021-09-13T15:37:41 CEST" duration-ms="1358" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[incorrectUsername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[testPassword1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid Email. Try again.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUnsuccessfullLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@6f43c82]" started-at="2021-09-13T15:37:41 CEST" name="tearDown" finished-at="2021-09-13T15:37:42 CEST" duration-ms="1476" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@6f43c82]" started-at="2021-09-13T15:37:42 CEST" name="setUp" finished-at="2021-09-13T15:37:46 CEST" duration-ms="3511" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@15d49048]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfullLoginActionOnMainPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@6f43c82]" started-at="2021-09-13T15:37:46 CEST" name="verifyUnsuccessfullLoginActionOnMainPage" finished-at="2021-09-13T15:37:46 CEST" duration-ms="660" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[incorrectUsername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[testPassword1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid Email. Try again.]]>
+                <![CDATA[{no=2, bodyFirstName=firstName":"test2, description=get user - valid 2, bodyLastName=lastName":"test2, username=test2, statusCode=200, bodyUsername=username":"test2}]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [http://localhost:8080/login] but found [http://localhost:8080/?username=incorrectUsername&password=testPassword1]]]>
+              <![CDATA[expected [200] but found [404]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=incorrectUsername&password=testPassword1]
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfullLoginActionOnMainPage(NegativeLoginTests.java:27)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername(API_FindByUsernameTests.java:27)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -315,166 +106,28 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUnsuccessfullLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@6f43c82]" started-at="2021-09-13T15:37:47 CEST" name="tearDown" finished-at="2021-09-13T15:37:47 CEST" duration-ms="916" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeLoginTests -->
-    </test> <!-- NegativeLoginUsernameOnMainPageTest-FF -->
-    <test started-at="2021-09-13T15:37:33 CEST" name="NegativeLoginPasswordOnMainPageTest-FF" finished-at="2021-09-13T15:37:49 CEST" duration-ms="15595">
-      <class name="local.HLVTestApp.loginandsignuptests.NegativeLoginTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@5340477f]" started-at="2021-09-13T15:37:33 CEST" name="setUp" finished-at="2021-09-13T15:37:40 CEST" duration-ms="6489" status="PASS">
+        </test-method> <!-- API_FindByUsername -->
+        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@f5ac9e4]" started-at="2021-09-14T19:42:00 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-14T19:42:00 CEST" duration-ms="28" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@7098b907]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfullLoginActionOnLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@5340477f]" started-at="2021-09-13T15:37:40 CEST" name="verifyUnsuccessfullLoginActionOnLoginPage" finished-at="2021-09-13T15:37:42 CEST" duration-ms="2224" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testUsername1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[incorrectPassword]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid Email. Try again.]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
-System info: host: 'SIXNS289', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [f4c400f6-a02e-453e-80c6-a43eb479e500, findElement {using=name, value=username}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:debuggerAddress: localhost:54566, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 17884, moz:profile: C:\Users\atatalovic\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54566/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f4c400f6-a02e-453e-80c6-a43eb479e500]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
-System info: host: 'SIXNS289', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [f4c400f6-a02e-453e-80c6-a43eb479e500, findElement {using=name, value=username}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:debuggerAddress: localhost:54566, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 17884, moz:profile: C:\Users\atatalovic\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54566/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f4c400f6-a02e-453e-80c6-a43eb479e500
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
-at org.openqa.selenium.remote.RemoteWebDriver$Mechanism$2.findElement(RemoteWebDriver.java:1251)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:386)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:373)
-at local.HLVTestApp.pages.BasePageObject.find(BasePageObject.java:33)
-at local.HLVTestApp.pages.BasePageObject.type(BasePageObject.java:45)
-at local.HLVTestApp.pages.LoginFormPageObject.logIn(LoginFormPageObject.java:23)
-at local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfullLoginActionOnLoginPage(NegativeLoginTests.java:52)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUnsuccessfullLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@5340477f]" started-at="2021-09-13T15:37:42 CEST" name="tearDown" finished-at="2021-09-13T15:37:43 CEST" duration-ms="797" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@5340477f]" started-at="2021-09-13T15:37:43 CEST" name="setUp" finished-at="2021-09-13T15:37:48 CEST" duration-ms="4527" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@7098b907]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfullLoginActionOnMainPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@5340477f]" started-at="2021-09-13T15:37:48 CEST" name="verifyUnsuccessfullLoginActionOnMainPage" finished-at="2021-09-13T15:37:48 CEST" duration-ms="491" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testUsername1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[incorrectPassword]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid Email. Try again.]]>
+                <![CDATA[{no=3, bodyFirstName=firstName":"test3, description=get user - valid 3, bodyLastName=lastName":"test3, username=test3, statusCode=200, bodyUsername=username":"test3}]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername1&password=incorrectPassword]]]>
+              <![CDATA[expected [200] but found [404]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername1&password=incorrectPassword]
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfullLoginActionOnMainPage(NegativeLoginTests.java:27)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername(API_FindByUsernameTests.java:27)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -503,12 +156,30 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUnsuccessfullLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@5340477f]" started-at="2021-09-13T15:37:48 CEST" name="tearDown" finished-at="2021-09-13T15:37:49 CEST" duration-ms="683" status="PASS">
+        </test-method> <!-- API_FindByUsername -->
+        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@f5ac9e4]" started-at="2021-09-14T19:42:00 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-14T19:42:00 CEST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=4, bodyFirstName=, description=Login with invalid username, bodyLastName=, username=invalidUsername, statusCode=404, bodyUsername=}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeLoginTests -->
-    </test> <!-- NegativeLoginPasswordOnMainPageTest-FF -->
-  </suite> <!-- NegativeLoginUsernameOnMainPageTestSuite -->
+        </test-method> <!-- API_FindByUsername -->
+        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@f5ac9e4]" started-at="2021-09-14T19:42:00 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-14T19:42:00 CEST" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=5, bodyFirstName=, description=Empty username, bodyLastName=, username=, statusCode=404, bodyUsername=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_FindByUsername -->
+      </class> <!-- local.HLVTestApp.APITests.API_FindByUsernameTests -->
+    </test> <!-- FindByUsernameTests -->
+  </suite> <!-- FindByUsernameTestSuite -->
 </testng-results>

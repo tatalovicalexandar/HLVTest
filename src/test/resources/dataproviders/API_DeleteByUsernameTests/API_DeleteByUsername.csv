@@ -1,0 +1,6 @@
+no,username,statusCode,body,description
+1,test1,200,User with username test1 is removed,delete user - valid 1
+2,test2,200,User with username test2 is removed,delete user - valid 2
+3,test3,200,User with username test3 is removed,delete user - valid 3
+4,invalidUsername,400,,,,User doesnt exist!
+5,,404,,,,Empty username

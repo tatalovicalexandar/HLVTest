@@ -1,0 +1,10 @@
+no,firstName,lastName,password,username,statusCode,body,description
+1,test1,test1,test1,test1,201,,valid username and password
+2,test11111111111111111111111,test11,test11,test11,400,First Name should be less than 15,Too long first name
+3,test111,test11111111111111111111111,test111,test111,400,LAst Name should be less than 15,Too long last name
+4,test1111,test1111,test1111,test1,400,User with the specified username already exists!,User already exist
+5,test11111,test11111,test11111,test11111111111111111111111111111111111111111111111111111111,400,Username must not be longer that 50 characters or shorter than 6 characters.,Too long username
+6,test2,test2,test2,test2,201,,valid username and password 2
+7,test3,test3,test3,test3,201,,valid username and password 3
+8,test4,test4,test4,test4,201,,valid username and password 4
+9,test5,test5,test5,test5,201,,valid username and password 5

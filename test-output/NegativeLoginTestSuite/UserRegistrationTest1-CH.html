@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>UserRegistrationTest1-CH</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 13 00:54:55 CEST 2021</td>
+<td>Started on:</td><td>Tue Sep 14 00:20:36 CEST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>23 seconds (23039 ms)</td>
+<tr><td>Total time:</td><td>7 seconds (7227 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,23 +67,101 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='local.HLVTestApp.loginandsignuptests.NegativeSignUpTests.verifyUnsuccessfullSignUpAction()'><b>verifyUnsuccessfullSignUpAction</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeSignUpTests<br>Test method: User already exist<br>Parameters: testFirstName1, testLastName1, testUsername1, test1@hlv.com, testPassword1, testMobile1, User has been successfully registered., Oops! There is already a user registered with the email provided.</td>
-<td></td>
-<td>1</td>
-<td>local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@792b749c</td></tr>
+<td title='local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfulSignUpAction()'><b>verifySuccessfulSignUpAction</b><br>Test class: local.HLVTestApp.loginandsignuptests.PositiveSignUpTests<br>Parameters: {no=1, firstName=testFirstName1, lastName=testLastName1, password=testPassword1, expectedSuccessfulMessage=User has been successfully registered., browser=firefox, mobile=testMobile1, email=test1@hlv.com, expectedUnsuccessfulMessage=Oops! There is already a user registered with the email provided., username=testUsername1}</td>
+<td><div><pre>java.lang.AssertionError: expected [Oops! There is already a user registered with the email provided.] but found [User has been successfully registered.]
+	at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfulSignUpAction(PositiveSignUpTests.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace212222714", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace212222714'><pre>java.lang.AssertionError: expected [Oops! There is already a user registered with the email provided.] but found [User has been successfully registered.]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfulSignUpAction(PositiveSignUpTests.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@305ffe9e</td></tr>
 <tr>
-<td title='local.HLVTestApp.loginandsignuptests.NegativeSignUpTests.verifySuccessfullSignUpAction()'><b>verifySuccessfullSignUpAction</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeSignUpTests<br>Parameters: testFirstName1, testLastName1, testUsername1, test1@hlv.com, testPassword1, testMobile1, User has been successfully registered., Oops! There is already a user registered with the email provided.</td>
-<td></td>
-<td>13</td>
-<td>local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@792b749c</td></tr>
+<td title='local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfulSignUpAction()'><b>verifySuccessfulSignUpAction</b><br>Test class: local.HLVTestApp.loginandsignuptests.PositiveSignUpTests<br>Parameters: {no=2, firstName=testFirstName2, lastName=testLastName2, password=testPassword2, expectedSuccessfulMessage=User has been successfully registered., browser=firefox, mobile=testMobile2, email=test2@hlv.com, expectedUnsuccessfulMessage=Oops! There is already a user registered with the email provided., username=testUsername2}</td>
+<td><div><pre>java.lang.AssertionError: expected [Oops! There is already a user registered with the email provided.] but found [User has been successfully registered.]
+	at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfulSignUpAction(PositiveSignUpTests.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1413905448", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1413905448'><pre>java.lang.AssertionError: expected [Oops! There is already a user registered with the email provided.] but found [User has been successfully registered.]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfulSignUpAction(PositiveSignUpTests.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@305ffe9e</td></tr>
 </table><p>
 </body>
 </html>

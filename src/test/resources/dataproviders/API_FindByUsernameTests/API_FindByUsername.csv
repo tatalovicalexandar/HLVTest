@@ -1,0 +1,6 @@
+no,username,statusCode,bodyUsername,bodyFirstName,bodyLastName,description
+1,test1,200,"username":"test1","firstName":"test1","lastName":"test1",get user - valid 1
+2,test2,200,"username":"test2","firstName":"test2","lastName":"test2",get user - valid 2
+3,test3,200,"username":"test3","firstName":"test3","lastName":"test3",get user - valid 3
+4,invalidUsername,404,,,,Login with invalid username
+5,,404,,,,Empty username

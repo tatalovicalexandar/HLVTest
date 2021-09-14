@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [RegisterUserTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="RegisterUserTests(failed)">
+    <classes>
+      <class name="local.HLVTestApp.APITests.API_RegisterUserTests">
+        <methods>
+          <include name="API_RegisterUser" invocation-numbers="7 8"/>
+        </methods>
+      </class> <!-- local.HLVTestApp.APITests.API_RegisterUserTests -->
+    </classes>
+  </test> <!-- RegisterUserTests(failed) -->
+</suite> <!-- Failed suite [RegisterUserTestSuite] -->

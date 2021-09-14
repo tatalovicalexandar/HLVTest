@@ -5,7 +5,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -36,7 +35,6 @@ public class TestUtilities extends BaseTest {
 		File destination = new File(path);
 		
 		// Save screenshot to desired location
-		//FileUtils.copyFile(source, destination);
 		Files.copyFile(new FileInputStream(source), destination);
 
 		return path;

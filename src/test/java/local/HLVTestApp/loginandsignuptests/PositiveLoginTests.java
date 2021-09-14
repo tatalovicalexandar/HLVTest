@@ -1,20 +1,26 @@
 package local.HLVTestApp.loginandsignuptests;
 
+import java.util.Map;
 import org.testng.Assert;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import local.HLVTestApp.base.BaseTest;
+import local.HLVTestApp.base.CsvDataProviders;
 import local.HLVTestApp.pages.LoginFormPageObject;
 import local.HLVTestApp.pages.ResponsiveSocialLoginFormPageObject;
 
 public class PositiveLoginTests extends BaseTest{
 
-	@Parameters({ "username", "password" })
-	@Test
-	public void verifySuccessfullLoginActionOnMainPage(String username, String password) {
+	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)
+	public void verifySuccessfulLoginActionOnMainPage(Map<String, String> testData) {
+		
+		// Data from data provider
+		//String no = testData.get("no");
+		String username = testData.get("username");
+		String password = testData.get("password");
+		//String description = testData.get("description");
 		
 		// Include test in test report
-		test = report.createTest("verifySuccessfullLoginActionOnMainPage");
+		test = report.createTest("verifySuccessfulLoginActionOnMainPage");
 				
 		// Open main page
 		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
@@ -27,12 +33,17 @@ public class PositiveLoginTests extends BaseTest{
 		Assert.assertEquals(mainPage.getCurrentUrl(), mainPage.getPageUrl() + "login");
 	}
 	
-	@Parameters({ "username", "password" })
-	@Test
-	public void verifySuccessfullLoginActionOnLoginPage(String username, String password) {
+	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)
+	public void verifySuccessfulLoginActionOnLoginPage(Map<String, String> testData) {
+		
+		// Data from data provider
+		//String no = testData.get("no");
+		String username = testData.get("username");
+		String password = testData.get("password");
+		//String description = testData.get("description");
 		
 		// Include test in test report
-		test = report.createTest("verifySuccessfullLoginActionOnLoginPage");
+		test = report.createTest("verifySuccessfulLoginActionOnLoginPage");
 				
 		// Open main page
 		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);

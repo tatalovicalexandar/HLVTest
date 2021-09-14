@@ -1,11 +1,28 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="NegativeLoginUsernameOnMainPageTestSuite" verbose="1" parallel="tests" thread-count="4">
+<suite name="NegativeLoginUsernameOnMainPageTestSuite" verbose="1" parallel="tests">
 
 	<listeners>
 		<listener class-name="local.HLVTestApp.listeners.TestListener"></listener>
 	</listeners>
+	
+	<test name="NegativeLoginTest-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="local.HLVTestApp.loginandsignuptests.NegativeLoginTests">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="NegativeLoginTest-FF">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="local.HLVTestApp.loginandsignuptests.NegativeLoginTests">
+			</class>
+		</classes>
+	</test>
 
+	<!--
 	<test name="NegativeLoginUsernameTest-CH">
 		<parameter name="username" value="incorrectUsername"></parameter>
 		<parameter name="password" value="testPassword1"></parameter>
@@ -49,5 +66,6 @@
 			</class>
 		</classes>
 	</test>
+	-->
 
 </suite>

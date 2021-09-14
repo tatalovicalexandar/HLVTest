@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="local.HLVTestApp.loginandsignuptests.NegativeLoginTests">
+      <class name="local.HLVTestApp.APITests.API_FindByUsernameTests">
         <methods>
-          <include name="tearDown"/>
-          <include name="verifyUnsuccessfullLoginActionOnMainPage"/>
-          <include name="setUp"/>
+          <include name="GET_findByExistingUsername"/>
         </methods>
-      </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeLoginTests -->
+      </class> <!-- local.HLVTestApp.APITests.API_FindByUsernameTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

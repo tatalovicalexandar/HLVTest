@@ -1,0 +1,10 @@
+no,firstName,lastName,password,username,statusCode,body,description
+1,test1,test1,test1,test1,200,,successful login 1
+2,test2,test2,test2,test2,200,,successful login 2
+3,test3,test3,test3,test3,200,,successful login 3
+4,test4,test4,test4,test4,200,,successful login 4
+5,test5,test5,test5,test5,200,,successful login 5
+6,incorrectFirstName,test1,test1,test1,417,Login failed.,Login failed - Incorrect firstName
+7,test1,incorrectLastName,test1,test1,417,Login failed.,Login failed - Incorrect lastName
+8,test1,test1,incorrectPassword,test1,417,Login failed.,Login failed - Incorrect password
+9,test1,test1,test1,incorrectUsername,417,Login failed.,Login failed - Incorrect username
