@@ -6,66 +6,20 @@
 			<listener class-name="local.HLVTestApp.listeners.TestListener"></listener>
 		</listeners>
 		
-		<test name="PositiveLoginOnMainPageTest-CH">
+		<test name="PositiveLoginOnMainPageTest1-CH">
 			<parameter name="browser" value="chrome"></parameter>
 			<classes>
 				<class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
-				</class>
-			</classes>
-		</test>
-	
-		<!-- 
-		<test name="PositiveLoginUsernameOnMainPageTest-CH">
-			<parameter name="username" value="testUsername1"></parameter>
-			<parameter name="password" value="testPassword1"></parameter>
-			<parameter name="browser" value="chrome"></parameter>
-			<classes>
-				<class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
-				<methods>
-					<include name="verifySuccessfullLoginActionOnMainPage" />
-				</methods>
 				</class>
 			</classes>
 		</test>
 		
-		<test name="PositiveLoginUsernameOnMainPageTest-FF">
-			<parameter name="username" value="testUsername1"></parameter>
-			<parameter name="password" value="testPassword1"></parameter>
+		<test name="PositiveLoginOnMainPageTest2-FF">
 			<parameter name="browser" value="firefox"></parameter>
 			<classes>
 				<class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
-				<methods>
-					<include name="verifySuccessfullLoginActionOnMainPage" />
-				</methods>
 				</class>
 			</classes>
 		</test>
-		
-		<test name="PositiveLoginPasswordOnLoginPageTest-CH">
-			<parameter name="username" value="testUsername1"></parameter>
-			<parameter name="password" value="testPassword1"></parameter>
-			<parameter name="browser" value="chrome"></parameter>
-			<classes>
-				<class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
-				<methods>
-					<include name="verifySuccessfullLoginActionOnLoginPage" />
-				</methods>
-				</class>
-			</classes>
-		</test>
-		
-		<test name="PositiveLoginPasswordOnLoginPageTest-FF">
-			<parameter name="username" value="testUsername1"></parameter>
-			<parameter name="password" value="testPassword1"></parameter>
-			<parameter name="browser" value="firefox"></parameter>
-			<classes>
-				<class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
-				<methods>
-					<include name="verifySuccessfullLoginActionOnLoginPage" />
-				</methods>
-				</class>
-			</classes>
-		</test>
-		-->
 	
 </suite>

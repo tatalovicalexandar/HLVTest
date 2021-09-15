@@ -11,7 +11,6 @@ import local.HLVTestApp.pages.SignUpPageObject;
 
 public class PositiveSignUpTests extends BaseTest{
 
-	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)
 	public void verifySuccessfulSignUpAction(Map<String, String> testData) {
 		
 		// Data from data provider
@@ -46,6 +45,19 @@ public class PositiveSignUpTests extends BaseTest{
 		
 		// Verification: Successful sign up message		
 		String actualMessage = finalSignUpPage.getMessageText();
-		Assert.assertEquals(expectedSuccessfulMessage, actualMessage);		
+		//Assert.assertEquals(expectedSuccessfulMessage, actualMessage);		
+		Assert.assertEquals(actualMessage, expectedSuccessfulMessage);		
+	}
+	
+	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)
+	public void verifySuccessfulSignUpActionChrome(Map<String, String> testData) {
+		
+		verifySuccessfulSignUpAction(testData);
+	}
+	
+	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)
+	public void verifySuccessfulSignUpActionFirefox(Map<String, String> testData) {
+		
+		verifySuccessfulSignUpAction(testData);
 	}
 }

@@ -1,12 +1,9 @@
 package local.HLVTestApp.listeners;
 
 import java.io.IOException;
-
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
 import com.aventstack.extentreports.Status;
-
 import local.HLVTestApp.base.BaseTest;
 import local.HLVTestApp.base.TestUtilities;
 

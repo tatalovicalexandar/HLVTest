@@ -1,3 +1,0 @@
-no,firstName,lastName,username,email,password,mobile,expectedSuccessfulMessage,expectedUnsuccessfulMessage
-1,testFirstName1,testLastName1,testUsername1,test1@hlv.com,testPassword1,testMobile1,User has been successfully registered.,Oops! There is already a user registered with the email provided.
-2,testFirstName2,testLastName2,testUsername2,test2@hlv.com,testPassword2,testMobile2,User has been successfully registered.,Oops! There is already a user registered with the email provided.

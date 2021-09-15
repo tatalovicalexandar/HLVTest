@@ -12,7 +12,6 @@
           <include name="tearDown"/>
           <include name="verifyUnsuccessfulLoginActionOnMainPage" invocation-numbers="0 1 2"/>
           <include name="setUp"/>
-          <include name="verifyUnsuccessfulLoginActionOnLoginPage" invocation-numbers="1"/>
         </methods>
       </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeLoginTests -->
     </classes>

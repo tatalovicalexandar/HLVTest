@@ -4,16 +4,28 @@
   <listeners>
     <listener class-name="local.HLVTestApp.listeners.TestListener"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="PositiveLoginOnMainPageTest-CH(failed)">
+  <test thread-count="5" parallel="tests" name="PositiveLoginOnMainPageTest1-CH(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
         <methods>
           <include name="tearDown"/>
-          <include name="verifySuccessfulLoginActionOnMainPage" invocation-numbers="0"/>
+          <include name="verifySuccessfulLoginActionOnMainPage" invocation-numbers="0 1"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
     </classes>
-  </test> <!-- PositiveLoginOnMainPageTest-CH(failed) -->
+  </test> <!-- PositiveLoginOnMainPageTest1-CH(failed) -->
+  <test thread-count="5" parallel="tests" name="PositiveLoginOnMainPageTest2-FF(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifySuccessfulLoginActionOnMainPage" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
+    </classes>
+  </test> <!-- PositiveLoginOnMainPageTest2-FF(failed) -->
 </suite> <!-- Failed suite [PositiveLoginTestSuite] -->

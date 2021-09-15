@@ -5,7 +5,7 @@
     <classes>
       <class name="local.HLVTestApp.APITests.API_FindByUsernameTests">
         <methods>
-          <include name="API_FindByUsername" invocation-numbers="0 1 2"/>
+          <include name="API_FindByUsername"/>
         </methods>
       </class> <!-- local.HLVTestApp.APITests.API_FindByUsernameTests -->
     </classes>

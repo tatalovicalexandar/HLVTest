@@ -1,17 +1,17 @@
 package local.HLVTestApp.loginandsignuptests;
 
 import java.util.Map;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import local.HLVTestApp.base.BaseTest;
 import local.HLVTestApp.base.CsvDataProviders;
 import local.HLVTestApp.pages.FinalSignUpPageObject;
 import local.HLVTestApp.pages.ResponsiveSocialLoginFormPageObject;
 import local.HLVTestApp.pages.SignUpPageObject;
 
-public class NegativeSignUpTests extends PositiveSignUpTests{
+public class NegativeSignUpTests extends BaseTest{
 	
-	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class, description="User already exist", dependsOnMethods = { "verifySuccessfulSignUpAction" })
+	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class, description="User already exist")
 	public void verifyUnsuccessfulSignUpAction(Map<String, String> testData) {
 		
 		// Data from data provider
@@ -45,14 +45,7 @@ public class NegativeSignUpTests extends PositiveSignUpTests{
 		Assert.assertTrue(finalSignUpPage.isHomeLinkVisible(), "HOME link is visible.");
 		
 		// Unsuccessful sign up message
-		String textName = super.getCurrentTestNameFromXml();
-		String expectedMessage;
-		if(textName == "verifySuccessfulSignUpAction")
-			expectedMessage = expectedSuccessfulMessage;
-		else
-			expectedMessage = expectedUnsuccessfulMessage;
-			
 		String actualUnsuccessMessage = finalSignUpPage.getMessageText();
-		Assert.assertEquals(expectedMessage, actualUnsuccessMessage);
+		Assert.assertEquals(expectedUnsuccessfulMessage, actualUnsuccessMessage);
 	}
 }

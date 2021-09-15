@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>FindByUsernameTests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Sep 14 19:41:59 CEST 2021</td>
+<td>Started on:</td><td>Wed Sep 15 14:44:28 CEST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1420 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1472 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,146 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername()'><b>API_FindByUsername</b><br>Test class: local.HLVTestApp.APITests.API_FindByUsernameTests<br>Parameters: {no=3, bodyFirstName=firstName":"test3, description=get user - valid 3, bodyLastName=lastName":"test3, username=test3, statusCode=200, bodyUsername=username":"test3}</td>
-<td><div><pre>java.lang.AssertionError: expected [200] but found [404]
-	at local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername(API_FindByUsernameTests.java:27)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace957422921", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace957422921'><pre>java.lang.AssertionError: expected [200] but found [404]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:907)
-	at org.testng.Assert.assertEquals(Assert.java:917)
-	at local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername(API_FindByUsernameTests.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-</pre></div></td>
-<td>0</td>
-<td>local.HLVTestApp.APITests.API_FindByUsernameTests@f5ac9e4</td></tr>
-<tr>
-<td title='local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername()'><b>API_FindByUsername</b><br>Test class: local.HLVTestApp.APITests.API_FindByUsernameTests<br>Parameters: {no=2, bodyFirstName=firstName":"test2, description=get user - valid 2, bodyLastName=lastName":"test2, username=test2, statusCode=200, bodyUsername=username":"test2}</td>
-<td><div><pre>java.lang.AssertionError: expected [200] but found [404]
-	at local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername(API_FindByUsernameTests.java:27)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace564234475", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace564234475'><pre>java.lang.AssertionError: expected [200] but found [404]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:907)
-	at org.testng.Assert.assertEquals(Assert.java:917)
-	at local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername(API_FindByUsernameTests.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-</pre></div></td>
-<td>0</td>
-<td>local.HLVTestApp.APITests.API_FindByUsernameTests@f5ac9e4</td></tr>
-<tr>
-<td title='local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername()'><b>API_FindByUsername</b><br>Test class: local.HLVTestApp.APITests.API_FindByUsernameTests<br>Parameters: {no=1, bodyFirstName=firstName":"test1, description=get user - valid 1, bodyLastName=lastName":"test1, username=test1, statusCode=200, bodyUsername=username":"test1}</td>
-<td><div><pre>java.lang.AssertionError: expected [200] but found [404]
-	at local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername(API_FindByUsernameTests.java:27)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1017055459", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1017055459'><pre>java.lang.AssertionError: expected [200] but found [404]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:907)
-	at org.testng.Assert.assertEquals(Assert.java:917)
-	at local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername(API_FindByUsernameTests.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-</pre></div></td>
-<td>1</td>
-<td>local.HLVTestApp.APITests.API_FindByUsernameTests@f5ac9e4</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -215,15 +75,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername()'><b>API_FindByUsername</b><br>Test class: local.HLVTestApp.APITests.API_FindByUsernameTests<br>Parameters: {no=5, bodyFirstName=, description=Empty username, bodyLastName=, username=, statusCode=404, bodyUsername=}</td>
+<td title='local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername()'><b>API_FindByUsername</b><br>Test class: local.HLVTestApp.APITests.API_FindByUsernameTests<br>Parameters: {no=3, bodyFirstName=firstName":"test3, description=get user - valid 3, bodyLastName=lastName":"test3, username=test3, statusCode=200, bodyUsername=username":"test3}</td>
 <td></td>
 <td>0</td>
-<td>local.HLVTestApp.APITests.API_FindByUsernameTests@f5ac9e4</td></tr>
+<td>local.HLVTestApp.APITests.API_FindByUsernameTests@49c7b90e</td></tr>
+<tr>
+<td title='local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername()'><b>API_FindByUsername</b><br>Test class: local.HLVTestApp.APITests.API_FindByUsernameTests<br>Parameters: {no=2, bodyFirstName=firstName":"test2, description=get user - valid 2, bodyLastName=lastName":"test2, username=test2, statusCode=200, bodyUsername=username":"test2}</td>
+<td></td>
+<td>0</td>
+<td>local.HLVTestApp.APITests.API_FindByUsernameTests@49c7b90e</td></tr>
 <tr>
 <td title='local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername()'><b>API_FindByUsername</b><br>Test class: local.HLVTestApp.APITests.API_FindByUsernameTests<br>Parameters: {no=4, bodyFirstName=, description=Login with invalid username, bodyLastName=, username=invalidUsername, statusCode=404, bodyUsername=}</td>
 <td></td>
 <td>0</td>
-<td>local.HLVTestApp.APITests.API_FindByUsernameTests@f5ac9e4</td></tr>
+<td>local.HLVTestApp.APITests.API_FindByUsernameTests@49c7b90e</td></tr>
+<tr>
+<td title='local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername()'><b>API_FindByUsername</b><br>Test class: local.HLVTestApp.APITests.API_FindByUsernameTests<br>Parameters: {no=1, bodyFirstName=firstName":"test1, description=get user - valid 1, bodyLastName=lastName":"test1, username=test1, statusCode=200, bodyUsername=username":"test1}</td>
+<td></td>
+<td>1</td>
+<td>local.HLVTestApp.APITests.API_FindByUsernameTests@49c7b90e</td></tr>
+<tr>
+<td title='local.HLVTestApp.APITests.API_FindByUsernameTests.API_FindByUsername()'><b>API_FindByUsername</b><br>Test class: local.HLVTestApp.APITests.API_FindByUsernameTests<br>Parameters: {no=5, bodyFirstName=, description=Empty username, bodyLastName=, username=, statusCode=404, bodyUsername=}</td>
+<td></td>
+<td>0</td>
+<td>local.HLVTestApp.APITests.API_FindByUsernameTests@49c7b90e</td></tr>
 </table><p>
 </body>
 </html>

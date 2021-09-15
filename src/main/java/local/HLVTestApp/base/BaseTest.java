@@ -34,7 +34,7 @@ public class BaseTest {
 	}
 	
 	@AfterMethod(alwaysRun = true)
-	public void tearDown() {
+	public void tearDownAfterEach() {
 		// Close browser
 		driver.quit();
 	}
