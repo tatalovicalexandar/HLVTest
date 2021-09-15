@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ExternalLoginLinkTestSuite" verbose="1" parallel="none">
+	
+		<listeners>
+			<listener class-name="local.HLVTestApp.listeners.TestListener"></listener>
+		</listeners>
+		
+		<test name="ExternalLoginLinkTest1-CH">
+			<parameter name="browser" value="chrome"></parameter>
+			<classes>
+				<class name="local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests">
+				</class>
+			</classes>
+		</test>
+		
+		<test name="ExternalLoginLinkTest2-FF">
+			<parameter name="browser" value="firefox"></parameter>
+			<classes>
+				<class name="local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests">
+				</class>
+			</classes>
+		</test>
+	
+</suite>

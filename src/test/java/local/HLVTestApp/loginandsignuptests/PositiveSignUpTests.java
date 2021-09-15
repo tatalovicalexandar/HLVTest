@@ -9,12 +9,12 @@ import local.HLVTestApp.pages.FinalSignUpPageObject;
 import local.HLVTestApp.pages.ResponsiveSocialLoginFormPageObject;
 import local.HLVTestApp.pages.SignUpPageObject;
 
-public class PositiveSignUpTests extends BaseTest{
+public class PositiveSignUpTests extends BaseTest {
 
 	public void verifySuccessfulSignUpAction(Map<String, String> testData) {
-		
+
 		// Data from data provider
-		//String no = testData.get("no");
+		// String no = testData.get("no");
 		String firstName = testData.get("firstName");
 		String lastName = testData.get("lastName");
 		String username = testData.get("username");
@@ -22,42 +22,44 @@ public class PositiveSignUpTests extends BaseTest{
 		String password = testData.get("password");
 		String mobile = testData.get("mobile");
 		String expectedSuccessfulMessage = testData.get("expectedSuccessfulMessage");
-		//String expectedUnsuccessfulMessage = testData.get("expectedUnsuccessfulMessage");
-		
+		// String expectedUnsuccessfulMessage =
+		// testData.get("expectedUnsuccessfulMessage");
+
 		// Include test in test report
 		test = report.createTest("verifySuccessfulSignUpAction");
-		
+
 		// Open main page
 		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
 		mainPage.openPage();
-		
-		// Open Sign Up Form page	
+
+		// Open Sign Up Form page
 		SignUpPageObject signUpForm = mainPage.clickOnSignUpButton();
-		
+
 		// Execute sign up
-		FinalSignUpPageObject finalSignUpPage = signUpForm.signUp(firstName, lastName, username, email, password, mobile);
-		
+		FinalSignUpPageObject finalSignUpPage = signUpForm.signUp(firstName, lastName, username, email, password,
+				mobile);
+
 		// Verification: New URL
 		Assert.assertEquals(finalSignUpPage.getPageUrl(), signUpForm.getCurrentUrl());
 
 		// Verification: HOME Link is visible
 		Assert.assertTrue(finalSignUpPage.isHomeLinkVisible(), "HOME link is visible.");
-		
-		// Verification: Successful sign up message		
+
+		// Verification: Successful sign up message
 		String actualMessage = finalSignUpPage.getMessageText();
-		//Assert.assertEquals(expectedSuccessfulMessage, actualMessage);		
-		Assert.assertEquals(actualMessage, expectedSuccessfulMessage);		
+		// Assert.assertEquals(expectedSuccessfulMessage, actualMessage);
+		Assert.assertEquals(actualMessage, expectedSuccessfulMessage);
 	}
 	
 	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)
 	public void verifySuccessfulSignUpActionChrome(Map<String, String> testData) {
-		
+
 		verifySuccessfulSignUpAction(testData);
 	}
-	
+
 	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)
 	public void verifySuccessfulSignUpActionFirefox(Map<String, String> testData) {
-		
+
 		verifySuccessfulSignUpAction(testData);
 	}
 }

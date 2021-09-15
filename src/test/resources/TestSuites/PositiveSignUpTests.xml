@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="PositiveSignUpTestSuite" verbose="1" parallel="tests" thread-count="4">
+<suite name="PositiveSignUpTestSuite" verbose="1" parallel="none">
 
 	<listeners>
 		<listener class-name="local.HLVTestApp.listeners.TestListener"></listener>

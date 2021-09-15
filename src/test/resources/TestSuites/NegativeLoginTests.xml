@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="NegativeLoginUsernameOnMainPageTestSuite" verbose="1" parallel="tests">
+<suite name="NegativeLoginUsernameOnMainPageTestSuite" verbose="1" parallel="none">
 
 	<listeners>
 		<listener class-name="local.HLVTestApp.listeners.TestListener"></listener>

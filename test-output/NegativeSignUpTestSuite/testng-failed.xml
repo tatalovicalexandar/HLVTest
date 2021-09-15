@@ -4,16 +4,26 @@
   <listeners>
     <listener class-name="local.HLVTestApp.listeners.TestListener"/>
   </listeners>
+  <test thread-count="4" parallel="tests" name="FailedUserRegistrationTest1-CH(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="local.HLVTestApp.loginandsignuptests.NegativeSignUpTests">
+        <methods>
+          <include name="verifyUnsuccessfulSignUpAction" invocation-numbers="1"/>
+          <include name="setUp"/>
+          <include name="tearDownAfterEach"/>
+        </methods>
+      </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeSignUpTests -->
+    </classes>
+  </test> <!-- FailedUserRegistrationTest1-CH(failed) -->
   <test thread-count="4" parallel="tests" name="FailedUserRegistrationTest2-FF(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
       <class name="local.HLVTestApp.loginandsignuptests.NegativeSignUpTests">
         <methods>
-          <include name="tearDown"/>
-          <include name="verifyUnsuccessfulSignUpAction" invocation-numbers="1"/>
+          <include name="verifyUnsuccessfulSignUpAction" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="verifySuccessfulSignUpActionFirefox" invocation-numbers="0 1"/>
-          <include name="verifySuccessfulSignUpActionChrome" invocation-numbers="0 1"/>
+          <include name="tearDownAfterEach"/>
         </methods>
       </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeSignUpTests -->
     </classes>

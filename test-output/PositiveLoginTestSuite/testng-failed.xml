@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [PositiveLoginTestSuite]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [PositiveLoginTestSuite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="local.HLVTestApp.listeners.TestListener"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="PositiveLoginOnMainPageTest1-CH(failed)">
+  <test thread-count="5" name="PositiveLoginOnMainPageTest1-CH(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
         <methods>
-          <include name="tearDown"/>
           <include name="verifySuccessfulLoginActionOnMainPage" invocation-numbers="0 1"/>
           <include name="setUp"/>
+          <include name="tearDownAfterEach"/>
         </methods>
       </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
     </classes>
   </test> <!-- PositiveLoginOnMainPageTest1-CH(failed) -->
-  <test thread-count="5" parallel="tests" name="PositiveLoginOnMainPageTest2-FF(failed)">
+  <test thread-count="5" name="PositiveLoginOnMainPageTest2-FF(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
       <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
         <methods>
-          <include name="tearDown"/>
           <include name="verifySuccessfulLoginActionOnMainPage" invocation-numbers="0 1"/>
           <include name="setUp"/>
+          <include name="tearDownAfterEach"/>
         </methods>
       </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
     </classes>
