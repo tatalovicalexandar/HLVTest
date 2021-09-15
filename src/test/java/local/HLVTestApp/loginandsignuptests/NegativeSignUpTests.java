@@ -22,8 +22,7 @@ public class NegativeSignUpTests extends BaseTest{
 		String email = testData.get("email");
 		String password = testData.get("password");
 		String mobile = testData.get("mobile");
-		String expectedSuccessfulMessage = testData.get("expectedSuccessfulMessage");
-		String expectedUnsuccessfulMessage = testData.get("expectedUnsuccessfulMessage");
+		String expectedMessage = testData.get("expectedMessage");
 		
 		// Include test in test report
 		test = report.createTest("verifyUnsuccessfulSignUpAction");
@@ -45,7 +44,7 @@ public class NegativeSignUpTests extends BaseTest{
 		Assert.assertTrue(finalSignUpPage.isHomeLinkVisible(), "HOME link is visible.");
 		
 		// Unsuccessful sign up message
-		String actualUnsuccessMessage = finalSignUpPage.getMessageText();
-		Assert.assertEquals(expectedUnsuccessfulMessage, actualUnsuccessMessage);
+		String actualMessage = finalSignUpPage.getMessageText();
+		Assert.assertEquals(actualMessage, expectedMessage);
 	}
 }

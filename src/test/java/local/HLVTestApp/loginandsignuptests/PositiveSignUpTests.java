@@ -21,9 +21,7 @@ public class PositiveSignUpTests extends BaseTest {
 		String email = testData.get("email");
 		String password = testData.get("password");
 		String mobile = testData.get("mobile");
-		String expectedSuccessfulMessage = testData.get("expectedSuccessfulMessage");
-		// String expectedUnsuccessfulMessage =
-		// testData.get("expectedUnsuccessfulMessage");
+		String expectedMessage = testData.get("expectedMessage");
 
 		// Include test in test report
 		test = report.createTest("verifySuccessfulSignUpAction");
@@ -48,7 +46,7 @@ public class PositiveSignUpTests extends BaseTest {
 		// Verification: Successful sign up message
 		String actualMessage = finalSignUpPage.getMessageText();
 		// Assert.assertEquals(expectedSuccessfulMessage, actualMessage);
-		Assert.assertEquals(actualMessage, expectedSuccessfulMessage);
+		Assert.assertEquals(actualMessage, expectedMessage);
 	}
 	
 	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)

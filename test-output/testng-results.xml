@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="56" passed="34" failed="20" skipped="0">
+<testng-results ignored="2" total="56" passed="38" failed="16" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-15T19:19:23 CEST" name="PositiveLoginTestSuite" finished-at="2021-09-15T19:19:50 CEST" duration-ms="27430">
+  <suite started-at="2021-09-15T21:17:29 CEST" name="PositiveLoginTestSuite" finished-at="2021-09-15T21:17:58 CEST" duration-ms="29492">
     <groups>
     </groups>
-    <test started-at="2021-09-15T19:19:23 CEST" name="PositiveLoginOnMainPageTest1-CH" finished-at="2021-09-15T19:19:33 CEST" duration-ms="10554">
+    <test started-at="2021-09-15T21:17:29 CEST" name="PositiveLoginOnMainPageTest1-CH" finished-at="2021-09-15T21:17:41 CEST" duration-ms="12291">
       <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T19:19:23 CEST" name="setUp" finished-at="2021-09-15T19:19:24 CEST" duration-ms="1292" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T21:17:29 CEST" name="setUp" finished-at="2021-09-15T21:17:30 CEST" duration-ms="1362" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,14 +16,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@77925f76]]>
+                <![CDATA[org.testng.TestRunner@43094e0c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T19:19:24 CEST" name="verifySuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T19:19:25 CEST" duration-ms="836" status="PASS">
+        <test-method signature="verifySuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T21:17:30 CEST" name="verifySuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T21:17:32 CEST" duration-ms="2144" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,11 +34,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T19:19:25 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:19:25 CEST" duration-ms="612" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T21:17:32 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:17:33 CEST" duration-ms="629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T19:19:25 CEST" name="setUp" finished-at="2021-09-15T19:19:27 CEST" duration-ms="1288" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T21:17:33 CEST" name="setUp" finished-at="2021-09-15T21:17:34 CEST" duration-ms="1313" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,14 +47,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@77925f76]]>
+                <![CDATA[org.testng.TestRunner@43094e0c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T19:19:27 CEST" name="verifySuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T19:19:27 CEST" duration-ms="707" status="PASS">
+        <test-method signature="verifySuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T21:17:34 CEST" name="verifySuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T21:17:35 CEST" duration-ms="793" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,11 +65,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T19:19:27 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:19:28 CEST" duration-ms="623" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T21:17:35 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:17:36 CEST" duration-ms="619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T19:19:28 CEST" name="setUp" finished-at="2021-09-15T19:19:29 CEST" duration-ms="1288" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T21:17:36 CEST" name="setUp" finished-at="2021-09-15T21:17:37 CEST" duration-ms="1305" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,14 +78,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@77925f76]]>
+                <![CDATA[org.testng.TestRunner@43094e0c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T19:19:29 CEST" name="verifySuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T19:19:30 CEST" duration-ms="537" status="FAIL">
+        <test-method signature="verifySuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T21:17:37 CEST" name="verifySuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T21:17:37 CEST" duration-ms="511" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -142,11 +142,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T19:19:30 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:19:31 CEST" duration-ms="646" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T21:17:38 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:17:38 CEST" duration-ms="624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T19:19:31 CEST" name="setUp" finished-at="2021-09-15T19:19:32 CEST" duration-ms="1328" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T21:17:38 CEST" name="setUp" finished-at="2021-09-15T21:17:40 CEST" duration-ms="1314" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -155,14 +155,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@77925f76]]>
+                <![CDATA[org.testng.TestRunner@43094e0c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T19:19:32 CEST" name="verifySuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T19:19:32 CEST" duration-ms="434" status="FAIL">
+        <test-method signature="verifySuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T21:17:40 CEST" name="verifySuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T21:17:40 CEST" duration-ms="477" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -219,15 +219,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T19:19:33 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:19:33 CEST" duration-ms="628" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@4331d187]" started-at="2021-09-15T21:17:40 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:17:41 CEST" duration-ms="610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
       </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
     </test> <!-- PositiveLoginOnMainPageTest1-CH -->
-    <test started-at="2021-09-15T19:19:33 CEST" name="PositiveLoginOnMainPageTest2-FF" finished-at="2021-09-15T19:19:50 CEST" duration-ms="16859">
+    <test started-at="2021-09-15T21:17:41 CEST" name="PositiveLoginOnMainPageTest2-FF" finished-at="2021-09-15T21:17:58 CEST" duration-ms="17187">
       <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T19:19:33 CEST" name="setUp" finished-at="2021-09-15T19:19:36 CEST" duration-ms="2976" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T21:17:41 CEST" name="setUp" finished-at="2021-09-15T21:17:44 CEST" duration-ms="2973" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -236,14 +236,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@3a2a56f6]]>
+                <![CDATA[org.testng.TestRunner@17e8c38c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T19:19:36 CEST" name="verifySuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T19:19:37 CEST" duration-ms="663" status="PASS">
+        <test-method signature="verifySuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T21:17:44 CEST" name="verifySuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T21:17:45 CEST" duration-ms="1134" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -254,11 +254,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T19:19:37 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:19:37 CEST" duration-ms="706" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T21:17:45 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:17:46 CEST" duration-ms="606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T19:19:37 CEST" name="setUp" finished-at="2021-09-15T19:19:40 CEST" duration-ms="2958" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T21:17:46 CEST" name="setUp" finished-at="2021-09-15T21:17:49 CEST" duration-ms="2972" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,14 +267,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@3a2a56f6]]>
+                <![CDATA[org.testng.TestRunner@17e8c38c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T19:19:40 CEST" name="verifySuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T19:19:41 CEST" duration-ms="552" status="PASS">
+        <test-method signature="verifySuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T21:17:49 CEST" name="verifySuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T21:17:49 CEST" duration-ms="612" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -285,11 +285,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T19:19:41 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:19:42 CEST" duration-ms="638" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T21:17:49 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:17:50 CEST" duration-ms="597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T19:19:42 CEST" name="setUp" finished-at="2021-09-15T19:19:45 CEST" duration-ms="2984" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T21:17:50 CEST" name="setUp" finished-at="2021-09-15T21:17:53 CEST" duration-ms="2978" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -298,14 +298,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@3a2a56f6]]>
+                <![CDATA[org.testng.TestRunner@17e8c38c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T19:19:45 CEST" name="verifySuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T19:19:45 CEST" duration-ms="375" status="FAIL">
+        <test-method signature="verifySuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T21:17:53 CEST" name="verifySuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T21:17:53 CEST" duration-ms="473" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -362,11 +362,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T19:19:45 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:19:46 CEST" duration-ms="768" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T21:17:53 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:17:54 CEST" duration-ms="596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T19:19:46 CEST" name="setUp" finished-at="2021-09-15T19:19:49 CEST" duration-ms="3013" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T21:17:54 CEST" name="setUp" finished-at="2021-09-15T21:17:57 CEST" duration-ms="2971" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -375,14 +375,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@3a2a56f6]]>
+                <![CDATA[org.testng.TestRunner@17e8c38c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T19:19:49 CEST" name="verifySuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T19:19:49 CEST" duration-ms="380" status="FAIL">
+        <test-method signature="verifySuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T21:17:57 CEST" name="verifySuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T21:17:57 CEST" duration-ms="448" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -439,19 +439,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T19:19:49 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:19:50 CEST" duration-ms="602" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@1a20270e]" started-at="2021-09-15T21:17:58 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:17:58 CEST" duration-ms="596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
       </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
     </test> <!-- PositiveLoginOnMainPageTest2-FF -->
   </suite> <!-- PositiveLoginTestSuite -->
-  <suite started-at="2021-09-15T19:20:04 CEST" name="NegativeLoginUsernameOnMainPageTestSuite" finished-at="2021-09-15T19:20:46 CEST" duration-ms="41363">
+  <suite started-at="2021-09-15T21:18:12 CEST" name="NegativeLoginUsernameOnMainPageTestSuite" finished-at="2021-09-15T21:18:55 CEST" duration-ms="42598">
     <groups>
     </groups>
-    <test started-at="2021-09-15T19:20:04 CEST" name="NegativeLoginTest-CH" finished-at="2021-09-15T19:20:21 CEST" duration-ms="16347">
+    <test started-at="2021-09-15T21:18:12 CEST" name="NegativeLoginTest-CH" finished-at="2021-09-15T21:18:30 CEST" duration-ms="17375">
       <class name="local.HLVTestApp.loginandsignuptests.NegativeLoginTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:04 CEST" name="setUp" finished-at="2021-09-15T19:20:06 CEST" duration-ms="1372" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:12 CEST" name="setUp" finished-at="2021-09-15T21:18:14 CEST" duration-ms="1283" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -460,14 +460,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@6a8da5c5]]>
+                <![CDATA[org.testng.TestRunner@5c4516ec]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:06 CEST" name="verifyUnsuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T19:20:06 CEST" duration-ms="812" status="PASS">
+        <test-method signature="verifyUnsuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:14 CEST" name="verifyUnsuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T21:18:16 CEST" duration-ms="2273" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -478,11 +478,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:06 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:07 CEST" duration-ms="628" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:16 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:17 CEST" duration-ms="612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:07 CEST" name="setUp" finished-at="2021-09-15T19:20:08 CEST" duration-ms="1284" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:17 CEST" name="setUp" finished-at="2021-09-15T21:18:18 CEST" duration-ms="1273" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -491,14 +491,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@6a8da5c5]]>
+                <![CDATA[org.testng.TestRunner@5c4516ec]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:08 CEST" name="verifyUnsuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T19:20:09 CEST" duration-ms="726" status="PASS">
+        <test-method signature="verifyUnsuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:18 CEST" name="verifyUnsuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T21:18:19 CEST" duration-ms="737" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -509,11 +509,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:09 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:10 CEST" duration-ms="641" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:19 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:19 CEST" duration-ms="610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:10 CEST" name="setUp" finished-at="2021-09-15T19:20:11 CEST" duration-ms="1278" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:19 CEST" name="setUp" finished-at="2021-09-15T21:18:21 CEST" duration-ms="1342" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -522,14 +522,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@6a8da5c5]]>
+                <![CDATA[org.testng.TestRunner@5c4516ec]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:11 CEST" name="verifyUnsuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T19:20:12 CEST" duration-ms="887" status="PASS">
+        <test-method signature="verifyUnsuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:21 CEST" name="verifyUnsuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T21:18:21 CEST" duration-ms="759" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -540,11 +540,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:12 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:12 CEST" duration-ms="620" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:21 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:22 CEST" duration-ms="607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:12 CEST" name="setUp" finished-at="2021-09-15T19:20:14 CEST" duration-ms="1338" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:22 CEST" name="setUp" finished-at="2021-09-15T21:18:23 CEST" duration-ms="1323" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -553,14 +553,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@6a8da5c5]]>
+                <![CDATA[org.testng.TestRunner@5c4516ec]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:14 CEST" name="verifyUnsuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T19:20:14 CEST" duration-ms="558" status="FAIL">
+        <test-method signature="verifyUnsuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:23 CEST" name="verifyUnsuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T21:18:24 CEST" duration-ms="508" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -617,11 +617,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:14 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:15 CEST" duration-ms="647" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:24 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:25 CEST" duration-ms="619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:15 CEST" name="setUp" finished-at="2021-09-15T19:20:16 CEST" duration-ms="1298" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:25 CEST" name="setUp" finished-at="2021-09-15T21:18:26 CEST" duration-ms="1259" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -630,14 +630,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@6a8da5c5]]>
+                <![CDATA[org.testng.TestRunner@5c4516ec]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:16 CEST" name="verifyUnsuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T19:20:17 CEST" duration-ms="534" status="FAIL">
+        <test-method signature="verifyUnsuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:26 CEST" name="verifyUnsuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T21:18:26 CEST" duration-ms="614" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -694,11 +694,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:17 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:18 CEST" duration-ms="647" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:27 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:27 CEST" duration-ms="636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:18 CEST" name="setUp" finished-at="2021-09-15T19:20:19 CEST" duration-ms="1371" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:27 CEST" name="setUp" finished-at="2021-09-15T21:18:29 CEST" duration-ms="1320" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -707,14 +707,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@6a8da5c5]]>
+                <![CDATA[org.testng.TestRunner@5c4516ec]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:19 CEST" name="verifyUnsuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T19:20:20 CEST" duration-ms="563" status="FAIL">
+        <test-method signature="verifyUnsuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:29 CEST" name="verifyUnsuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T21:18:29 CEST" duration-ms="457" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -771,15 +771,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T19:20:20 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:21 CEST" duration-ms="636" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@72437d8d]" started-at="2021-09-15T21:18:29 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:30 CEST" duration-ms="621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
       </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeLoginTests -->
     </test> <!-- NegativeLoginTest-CH -->
-    <test started-at="2021-09-15T19:20:21 CEST" name="NegativeLoginTest-FF" finished-at="2021-09-15T19:20:46 CEST" duration-ms="24997">
+    <test started-at="2021-09-15T21:18:30 CEST" name="NegativeLoginTest-FF" finished-at="2021-09-15T21:18:55 CEST" duration-ms="25205">
       <class name="local.HLVTestApp.loginandsignuptests.NegativeLoginTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:21 CEST" name="setUp" finished-at="2021-09-15T19:20:24 CEST" duration-ms="2971" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:30 CEST" name="setUp" finished-at="2021-09-15T21:18:33 CEST" duration-ms="2992" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -788,14 +788,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@160e45c8]]>
+                <![CDATA[org.testng.TestRunner@17ea3bc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:24 CEST" name="verifyUnsuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T19:20:24 CEST" duration-ms="615" status="PASS">
+        <test-method signature="verifyUnsuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:33 CEST" name="verifyUnsuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T21:18:33 CEST" duration-ms="599" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -806,11 +806,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:24 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:25 CEST" duration-ms="593" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:33 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:34 CEST" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:25 CEST" name="setUp" finished-at="2021-09-15T19:20:28 CEST" duration-ms="2957" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:34 CEST" name="setUp" finished-at="2021-09-15T21:18:37 CEST" duration-ms="2953" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -819,14 +819,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@160e45c8]]>
+                <![CDATA[org.testng.TestRunner@17ea3bc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:28 CEST" name="verifyUnsuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T19:20:28 CEST" duration-ms="602" status="PASS">
+        <test-method signature="verifyUnsuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:37 CEST" name="verifyUnsuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T21:18:38 CEST" duration-ms="543" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -837,11 +837,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:28 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:29 CEST" duration-ms="668" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:38 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:38 CEST" duration-ms="606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:29 CEST" name="setUp" finished-at="2021-09-15T19:20:32 CEST" duration-ms="2989" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:38 CEST" name="setUp" finished-at="2021-09-15T21:18:41 CEST" duration-ms="2947" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -850,14 +850,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@160e45c8]]>
+                <![CDATA[org.testng.TestRunner@17ea3bc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:32 CEST" name="verifyUnsuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T19:20:33 CEST" duration-ms="579" status="PASS">
+        <test-method signature="verifyUnsuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:41 CEST" name="verifyUnsuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-15T21:18:42 CEST" duration-ms="625" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -868,11 +868,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginActionOnLoginPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:33 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:33 CEST" duration-ms="593" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:42 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:42 CEST" duration-ms="769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:33 CEST" name="setUp" finished-at="2021-09-15T19:20:36 CEST" duration-ms="2949" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:42 CEST" name="setUp" finished-at="2021-09-15T21:18:45 CEST" duration-ms="2964" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -881,14 +881,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@160e45c8]]>
+                <![CDATA[org.testng.TestRunner@17ea3bc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:36 CEST" name="verifyUnsuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T19:20:37 CEST" duration-ms="447" status="FAIL">
+        <test-method signature="verifyUnsuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:45 CEST" name="verifyUnsuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T21:18:46 CEST" duration-ms="422" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -945,11 +945,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:37 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:37 CEST" duration-ms="759" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:46 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:47 CEST" duration-ms="755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:37 CEST" name="setUp" finished-at="2021-09-15T19:20:40 CEST" duration-ms="2960" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:47 CEST" name="setUp" finished-at="2021-09-15T21:18:50 CEST" duration-ms="2980" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -958,14 +958,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@160e45c8]]>
+                <![CDATA[org.testng.TestRunner@17ea3bc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:40 CEST" name="verifyUnsuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T19:20:41 CEST" duration-ms="390" status="FAIL">
+        <test-method signature="verifyUnsuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:50 CEST" name="verifyUnsuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T21:18:50 CEST" duration-ms="426" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1022,11 +1022,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:41 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:41 CEST" duration-ms="621" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:50 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:51 CEST" duration-ms="597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:41 CEST" name="setUp" finished-at="2021-09-15T19:20:44 CEST" duration-ms="2971" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:51 CEST" name="setUp" finished-at="2021-09-15T21:18:54 CEST" duration-ms="2975" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1035,14 +1035,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@160e45c8]]>
+                <![CDATA[org.testng.TestRunner@17ea3bc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:44 CEST" name="verifyUnsuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T19:20:45 CEST" duration-ms="379" status="FAIL">
+        <test-method signature="verifyUnsuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:54 CEST" name="verifyUnsuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-15T21:18:54 CEST" duration-ms="428" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1099,19 +1099,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulLoginActionOnMainPage -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T19:20:45 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:46 CEST" duration-ms="597" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb]" started-at="2021-09-15T21:18:54 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:55 CEST" duration-ms="694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
       </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeLoginTests -->
     </test> <!-- NegativeLoginTest-FF -->
   </suite> <!-- NegativeLoginUsernameOnMainPageTestSuite -->
-  <suite started-at="2021-09-15T19:19:05 CEST" name="FindByUsernameTestSuite" finished-at="2021-09-15T19:19:05 CEST" duration-ms="209">
+  <suite started-at="2021-09-15T21:17:08 CEST" name="FindByUsernameTestSuite" finished-at="2021-09-15T21:17:08 CEST" duration-ms="194">
     <groups>
     </groups>
-    <test started-at="2021-09-15T19:19:05 CEST" name="FindByUsernameTests" finished-at="2021-09-15T19:19:05 CEST" duration-ms="209">
+    <test started-at="2021-09-15T21:17:08 CEST" name="FindByUsernameTests" finished-at="2021-09-15T21:17:08 CEST" duration-ms="194">
       <class name="local.HLVTestApp.APITests.API_FindByUsernameTests">
-        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@38089a5a]" started-at="2021-09-15T19:19:05 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-15T19:19:05 CEST" duration-ms="44" status="PASS">
+        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@38089a5a]" started-at="2021-09-15T21:17:08 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="41" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1122,7 +1122,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_FindByUsername -->
-        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@38089a5a]" started-at="2021-09-15T19:19:05 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-15T19:19:05 CEST" duration-ms="21" status="PASS">
+        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@38089a5a]" started-at="2021-09-15T21:17:08 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1133,7 +1133,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_FindByUsername -->
-        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@38089a5a]" started-at="2021-09-15T19:19:05 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-15T19:19:05 CEST" duration-ms="11" status="PASS">
+        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@38089a5a]" started-at="2021-09-15T21:17:08 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1144,7 +1144,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_FindByUsername -->
-        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@38089a5a]" started-at="2021-09-15T19:19:05 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-15T19:19:05 CEST" duration-ms="14" status="PASS">
+        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@38089a5a]" started-at="2021-09-15T21:17:08 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1155,7 +1155,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_FindByUsername -->
-        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@38089a5a]" started-at="2021-09-15T19:19:05 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-15T19:19:05 CEST" duration-ms="113" status="PASS">
+        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@38089a5a]" started-at="2021-09-15T21:17:08 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="108" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1169,24 +1169,24 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
       </class> <!-- local.HLVTestApp.APITests.API_FindByUsernameTests -->
     </test> <!-- FindByUsernameTests -->
   </suite> <!-- FindByUsernameTestSuite -->
-  <suite started-at="2021-09-15T19:21:06 CEST" name="AllAPITestSuites" finished-at="2021-09-15T19:21:06 CEST" duration-ms="0">
+  <suite started-at="2021-09-15T21:19:15 CEST" name="AllAPITestSuites" finished-at="2021-09-15T21:19:15 CEST" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- AllAPITestSuites -->
-  <suite started-at="2021-09-15T19:21:06 CEST" name="AllGUITestSuites" finished-at="2021-09-15T19:21:06 CEST" duration-ms="0">
+  <suite started-at="2021-09-15T21:19:15 CEST" name="AllGUITestSuites" finished-at="2021-09-15T21:19:15 CEST" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- AllGUITestSuites -->
-  <suite started-at="2021-09-15T19:21:06 CEST" name="ValidateLoginTestSuite" finished-at="2021-09-15T19:21:06 CEST" duration-ms="0">
+  <suite started-at="2021-09-15T21:19:15 CEST" name="ValidateLoginTestSuite" finished-at="2021-09-15T21:19:15 CEST" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- ValidateLoginTestSuite -->
-  <suite started-at="2021-09-15T19:19:50 CEST" name="NegativeSignUpTestSuite" finished-at="2021-09-15T19:20:04 CEST" duration-ms="14131">
+  <suite started-at="2021-09-15T21:17:58 CEST" name="NegativeSignUpTestSuite" finished-at="2021-09-15T21:18:12 CEST" duration-ms="14262">
     <groups>
     </groups>
-    <test started-at="2021-09-15T19:19:50 CEST" name="FailedUserRegistrationTest1-CH" finished-at="2021-09-15T19:19:56 CEST" duration-ms="5825">
+    <test started-at="2021-09-15T21:17:58 CEST" name="FailedUserRegistrationTest1-CH" finished-at="2021-09-15T21:18:04 CEST" duration-ms="5699">
       <class name="local.HLVTestApp.loginandsignuptests.NegativeSignUpTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4b79ac84]" started-at="2021-09-15T19:19:50 CEST" name="setUp" finished-at="2021-09-15T19:19:51 CEST" duration-ms="1313" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4b79ac84]" started-at="2021-09-15T21:17:58 CEST" name="setUp" finished-at="2021-09-15T21:18:00 CEST" duration-ms="1343" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1195,29 +1195,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@7f9dbe11]]>
+                <![CDATA[org.testng.TestRunner@4d93e5bf]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulSignUpAction(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4b79ac84]" started-at="2021-09-15T19:19:51 CEST" name="verifyUnsuccessfulSignUpAction" description="User already exist" data-provider="csvReader" finished-at="2021-09-15T19:19:52 CEST" duration-ms="953" status="PASS">
+        <test-method signature="verifyUnsuccessfulSignUpAction(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4b79ac84]" started-at="2021-09-15T21:18:00 CEST" name="verifyUnsuccessfulSignUpAction" description="User already exist" data-provider="csvReader" finished-at="2021-09-15T21:18:00 CEST" duration-ms="952" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=1, firstName=testFirstName1, lastName=testLastName1, password=testPassword1, expectedSuccssfulMessage=User has been successfully registered., mobile=testMobile1, email=test1@hlv.com, expectedUnsuccessfulMessage=Oops! There is already a user registered with the email provided., username=testUsername1}]]>
+                <![CDATA[{no=1, firstName=testFirstName1, lastName=testLastName1, password=testPassword1, mobile=testMobile1, email=test1@hlv.com, expectedMessage=Oops! There is already a user registered with the email provided., username=testUsername1}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulSignUpAction -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4b79ac84]" started-at="2021-09-15T19:19:52 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:19:53 CEST" duration-ms="629" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4b79ac84]" started-at="2021-09-15T21:18:00 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:01 CEST" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4b79ac84]" started-at="2021-09-15T19:19:53 CEST" name="setUp" finished-at="2021-09-15T19:19:54 CEST" duration-ms="1308" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4b79ac84]" started-at="2021-09-15T21:18:01 CEST" name="setUp" finished-at="2021-09-15T21:18:02 CEST" duration-ms="1247" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1226,33 +1226,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@7f9dbe11]]>
+                <![CDATA[org.testng.TestRunner@4d93e5bf]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulSignUpAction(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4b79ac84]" started-at="2021-09-15T19:19:54 CEST" name="verifyUnsuccessfulSignUpAction" description="User already exist" data-provider="csvReader" finished-at="2021-09-15T19:19:55 CEST" duration-ms="978" status="PASS">
+        <test-method signature="verifyUnsuccessfulSignUpAction(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4b79ac84]" started-at="2021-09-15T21:18:02 CEST" name="verifyUnsuccessfulSignUpAction" description="User already exist" data-provider="csvReader" finished-at="2021-09-15T21:18:03 CEST" duration-ms="951" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=2, firstName=testFirstName2, lastName=testLastName2, password=testPassword2, expectedSuccssfulMessage=User has been successfully registered., mobile=testMobile2, email=test2@hlv.com, expectedUnsuccessfulMessage=Oops! There is already a user registered with the email provided., username=testUsername2}]]>
+                <![CDATA[{no=2, firstName=testFirstName2, lastName=testLastName2, password=testPassword2, mobile=testMobile2, email=test2@hlv.com, expectedMessage=Oops! There is already a user registered with the email provided., username=testUsername2}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulSignUpAction -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4b79ac84]" started-at="2021-09-15T19:19:55 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:19:56 CEST" duration-ms="639" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@4b79ac84]" started-at="2021-09-15T21:18:03 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:04 CEST" duration-ms="599" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
       </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeSignUpTests -->
     </test> <!-- FailedUserRegistrationTest1-CH -->
-    <test started-at="2021-09-15T19:19:56 CEST" name="FailedUserRegistrationTest2-FF" finished-at="2021-09-15T19:20:04 CEST" duration-ms="8295">
+    <test started-at="2021-09-15T21:18:04 CEST" name="FailedUserRegistrationTest2-FF" finished-at="2021-09-15T21:18:12 CEST" duration-ms="8553">
       <class name="local.HLVTestApp.loginandsignuptests.NegativeSignUpTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@5460cf3a]" started-at="2021-09-15T19:19:56 CEST" name="setUp" finished-at="2021-09-15T19:19:59 CEST" duration-ms="2939" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@5460cf3a]" started-at="2021-09-15T21:18:04 CEST" name="setUp" finished-at="2021-09-15T21:18:07 CEST" duration-ms="2985" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1261,29 +1261,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@17e8caf2]]>
+                <![CDATA[org.testng.TestRunner@1c36ab22]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulSignUpAction(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@5460cf3a]" started-at="2021-09-15T19:19:59 CEST" name="verifyUnsuccessfulSignUpAction" description="User already exist" data-provider="csvReader" finished-at="2021-09-15T19:19:59 CEST" duration-ms="527" status="PASS">
+        <test-method signature="verifyUnsuccessfulSignUpAction(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@5460cf3a]" started-at="2021-09-15T21:18:07 CEST" name="verifyUnsuccessfulSignUpAction" description="User already exist" data-provider="csvReader" finished-at="2021-09-15T21:18:07 CEST" duration-ms="557" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=1, firstName=testFirstName1, lastName=testLastName1, password=testPassword1, expectedSuccssfulMessage=User has been successfully registered., mobile=testMobile1, email=test1@hlv.com, expectedUnsuccessfulMessage=Oops! There is already a user registered with the email provided., username=testUsername1}]]>
+                <![CDATA[{no=1, firstName=testFirstName1, lastName=testLastName1, password=testPassword1, mobile=testMobile1, email=test1@hlv.com, expectedMessage=Oops! There is already a user registered with the email provided., username=testUsername1}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulSignUpAction -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@5460cf3a]" started-at="2021-09-15T19:19:59 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:00 CEST" duration-ms="601" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@5460cf3a]" started-at="2021-09-15T21:18:07 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:08 CEST" duration-ms="608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@5460cf3a]" started-at="2021-09-15T19:20:00 CEST" name="setUp" finished-at="2021-09-15T19:20:03 CEST" duration-ms="2982" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@5460cf3a]" started-at="2021-09-15T21:18:08 CEST" name="setUp" finished-at="2021-09-15T21:18:11 CEST" duration-ms="2973" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1292,37 +1292,37 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@17e8caf2]]>
+                <![CDATA[org.testng.TestRunner@1c36ab22]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUnsuccessfulSignUpAction(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@5460cf3a]" started-at="2021-09-15T19:20:03 CEST" name="verifyUnsuccessfulSignUpAction" description="User already exist" data-provider="csvReader" finished-at="2021-09-15T19:20:03 CEST" duration-ms="497" status="PASS">
+        <test-method signature="verifyUnsuccessfulSignUpAction(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@5460cf3a]" started-at="2021-09-15T21:18:11 CEST" name="verifyUnsuccessfulSignUpAction" description="User already exist" data-provider="csvReader" finished-at="2021-09-15T21:18:12 CEST" duration-ms="650" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=2, firstName=testFirstName2, lastName=testLastName2, password=testPassword2, expectedSuccssfulMessage=User has been successfully registered., mobile=testMobile2, email=test2@hlv.com, expectedUnsuccessfulMessage=Oops! There is already a user registered with the email provided., username=testUsername2}]]>
+                <![CDATA[{no=2, firstName=testFirstName2, lastName=testLastName2, password=testPassword2, mobile=testMobile2, email=test2@hlv.com, expectedMessage=Oops! There is already a user registered with the email provided., username=testUsername2}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnsuccessfulSignUpAction -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@5460cf3a]" started-at="2021-09-15T19:20:03 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:04 CEST" duration-ms="745" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.NegativeSignUpTests@5460cf3a]" started-at="2021-09-15T21:18:12 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:12 CEST" duration-ms="773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
       </class> <!-- local.HLVTestApp.loginandsignuptests.NegativeSignUpTests -->
     </test> <!-- FailedUserRegistrationTest2-FF -->
   </suite> <!-- NegativeSignUpTestSuite -->
-  <suite started-at="2021-09-15T19:19:05 CEST" name="PositiveSignUpTestSuite" finished-at="2021-09-15T19:19:23 CEST" duration-ms="17505">
+  <suite started-at="2021-09-15T21:17:09 CEST" name="PositiveSignUpTestSuite" finished-at="2021-09-15T21:17:29 CEST" duration-ms="20126">
     <groups>
     </groups>
-    <test started-at="2021-09-15T19:19:05 CEST" name="UserRegistrationTest1-CH" finished-at="2021-09-15T19:19:13 CEST" duration-ms="8428">
+    <test started-at="2021-09-15T21:17:09 CEST" name="UserRegistrationTest1-CH" finished-at="2021-09-15T21:17:19 CEST" duration-ms="10908">
       <class name="local.HLVTestApp.loginandsignuptests.PositiveSignUpTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@77102b91]" started-at="2021-09-15T19:19:05 CEST" name="setUp" finished-at="2021-09-15T19:19:08 CEST" duration-ms="2584" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@77102b91]" started-at="2021-09-15T21:17:09 CEST" name="setUp" finished-at="2021-09-15T21:17:11 CEST" duration-ms="2779" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1331,76 +1331,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@104cf647]]>
+                <![CDATA[org.testng.TestRunner@68303c3e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfulSignUpActionChrome(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@77102b91]" started-at="2021-09-15T19:19:08 CEST" name="verifySuccessfulSignUpActionChrome" data-provider="csvReader" finished-at="2021-09-15T19:19:09 CEST" duration-ms="1200" status="FAIL">
+        <test-method signature="verifySuccessfulSignUpActionChrome(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@77102b91]" started-at="2021-09-15T21:17:11 CEST" name="verifySuccessfulSignUpActionChrome" data-provider="csvReader" finished-at="2021-09-15T21:17:16 CEST" duration-ms="4209" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=1, firstName=testFirstName1, lastName=testLastName1, password=testPassword1, expectedSuccessfulMessage=User has been successfully registered., mobile=testMobile1, email=test1@hlv.com, expectedUnsuccessfulMessage=Oops! There is already a user registered with the email provided., username=testUsername1}]]>
+                <![CDATA[{no=1, firstName=testFirstName1, lastName=testLastName1, password=testPassword1, mobile=testMobile1, email=test1@hlv.com, expectedMessage=User has been successfully registered., username=testUsername1}]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [User has been successfully registered.] but found [Oops! There is already a user registered with the email provided.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [User has been successfully registered.] but found [Oops! There is already a user registered with the email provided.]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfulSignUpAction(PositiveSignUpTests.java:51)
-at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfulSignUpActionChrome(PositiveSignUpTests.java:57)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulSignUpActionChrome -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@77102b91]" started-at="2021-09-15T19:19:09 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:19:10 CEST" duration-ms="761" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@77102b91]" started-at="2021-09-15T21:17:16 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:17:16 CEST" duration-ms="781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@77102b91]" started-at="2021-09-15T19:19:10 CEST" name="setUp" finished-at="2021-09-15T19:19:11 CEST" duration-ms="1360" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@77102b91]" started-at="2021-09-15T21:17:16 CEST" name="setUp" finished-at="2021-09-15T21:17:18 CEST" duration-ms="1288" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1409,80 +1362,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@104cf647]]>
+                <![CDATA[org.testng.TestRunner@68303c3e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfulSignUpActionChrome(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@77102b91]" started-at="2021-09-15T19:19:11 CEST" name="verifySuccessfulSignUpActionChrome" data-provider="csvReader" finished-at="2021-09-15T19:19:13 CEST" duration-ms="1110" status="FAIL">
+        <test-method signature="verifySuccessfulSignUpActionChrome(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@77102b91]" started-at="2021-09-15T21:17:18 CEST" name="verifySuccessfulSignUpActionChrome" data-provider="csvReader" finished-at="2021-09-15T21:17:19 CEST" duration-ms="1179" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=2, firstName=testFirstName2, lastName=testLastName2, password=testPassword2, expectedSuccessfulMessage=User has been successfully registered., mobile=testMobile2, email=test2@hlv.com, expectedUnsuccessfulMessage=Oops! There is already a user registered with the email provided., username=testUsername2}]]>
+                <![CDATA[{no=2, firstName=testFirstName2, lastName=testLastName2, password=testPassword2, mobile=testMobile2, email=test2@hlv.com, expectedMessage=User has been successfully registered., username=testUsername2}]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [User has been successfully registered.] but found [Oops! There is already a user registered with the email provided.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [User has been successfully registered.] but found [Oops! There is already a user registered with the email provided.]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfulSignUpAction(PositiveSignUpTests.java:51)
-at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfulSignUpActionChrome(PositiveSignUpTests.java:57)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulSignUpActionChrome -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@77102b91]" started-at="2021-09-15T19:19:13 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:19:13 CEST" duration-ms="768" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@77102b91]" started-at="2021-09-15T21:17:19 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:17:19 CEST" duration-ms="668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
       </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveSignUpTests -->
     </test> <!-- UserRegistrationTest1-CH -->
-    <test started-at="2021-09-15T19:19:13 CEST" name="UserRegistrationTest2-FF" finished-at="2021-09-15T19:19:23 CEST" duration-ms="9070">
+    <test started-at="2021-09-15T21:17:19 CEST" name="UserRegistrationTest2-FF" finished-at="2021-09-15T21:17:29 CEST" duration-ms="9214">
       <class name="local.HLVTestApp.loginandsignuptests.PositiveSignUpTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@6bffbc6d]" started-at="2021-09-15T19:19:13 CEST" name="setUp" finished-at="2021-09-15T19:19:17 CEST" duration-ms="3269" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@6bffbc6d]" started-at="2021-09-15T21:17:19 CEST" name="setUp" finished-at="2021-09-15T21:17:23 CEST" duration-ms="3756" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1491,76 +1397,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@7488c183]]>
+                <![CDATA[org.testng.TestRunner@2ec23ec3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfulSignUpActionFirefox(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@6bffbc6d]" started-at="2021-09-15T19:19:17 CEST" name="verifySuccessfulSignUpActionFirefox" data-provider="csvReader" finished-at="2021-09-15T19:19:17 CEST" duration-ms="690" status="FAIL">
+        <test-method signature="verifySuccessfulSignUpActionFirefox(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@6bffbc6d]" started-at="2021-09-15T21:17:23 CEST" name="verifySuccessfulSignUpActionFirefox" data-provider="csvReader" finished-at="2021-09-15T21:17:24 CEST" duration-ms="691" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=3, firstName=testFirstName3, lastName=testLastName3, password=testPassword3, expectedSuccessfulMessage=User has been successfully registered., mobile=testMobile3, email=test3@hlv.com, expectedUnsuccessfulMessage=Oops! There is already a user registered with the email provided., username=testUsername3}]]>
+                <![CDATA[{no=3, firstName=testFirstName3, lastName=testLastName3, password=testPassword3, mobile=testMobile3, email=test3@hlv.com, expectedMessage=User has been successfully registered., username=testUsername3}]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [User has been successfully registered.] but found [Oops! There is already a user registered with the email provided.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [User has been successfully registered.] but found [Oops! There is already a user registered with the email provided.]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfulSignUpAction(PositiveSignUpTests.java:51)
-at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfulSignUpActionFirefox(PositiveSignUpTests.java:63)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulSignUpActionFirefox -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@6bffbc6d]" started-at="2021-09-15T19:19:18 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:19:18 CEST" duration-ms="732" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@6bffbc6d]" started-at="2021-09-15T21:17:24 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:17:25 CEST" duration-ms="624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@6bffbc6d]" started-at="2021-09-15T19:19:18 CEST" name="setUp" finished-at="2021-09-15T19:19:21 CEST" duration-ms="3055" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@6bffbc6d]" started-at="2021-09-15T21:17:25 CEST" name="setUp" finished-at="2021-09-15T21:17:28 CEST" duration-ms="2979" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1569,84 +1428,37 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@7488c183]]>
+                <![CDATA[org.testng.TestRunner@2ec23ec3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfulSignUpActionFirefox(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@6bffbc6d]" started-at="2021-09-15T19:19:21 CEST" name="verifySuccessfulSignUpActionFirefox" data-provider="csvReader" finished-at="2021-09-15T19:19:22 CEST" duration-ms="547" status="FAIL">
+        <test-method signature="verifySuccessfulSignUpActionFirefox(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@6bffbc6d]" started-at="2021-09-15T21:17:28 CEST" name="verifySuccessfulSignUpActionFirefox" data-provider="csvReader" finished-at="2021-09-15T21:17:28 CEST" duration-ms="557" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=4, firstName=testFirstName4, lastName=testLastName4, password=testPassword4, expectedSuccessfulMessage=User has been successfully registered., mobile=testMobile4, email=test4@hlv.com, expectedUnsuccessfulMessage=Oops! There is already a user registered with the email provided., username=testUsername4}]]>
+                <![CDATA[{no=4, firstName=testFirstName4, lastName=testLastName4, password=testPassword4, mobile=testMobile4, email=test4@hlv.com, expectedMessage=User has been successfully registered., username=testUsername4}]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [User has been successfully registered.] but found [Oops! There is already a user registered with the email provided.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [User has been successfully registered.] but found [Oops! There is already a user registered with the email provided.]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfulSignUpAction(PositiveSignUpTests.java:51)
-at local.HLVTestApp.loginandsignuptests.PositiveSignUpTests.verifySuccessfulSignUpActionFirefox(PositiveSignUpTests.java:63)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulSignUpActionFirefox -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@6bffbc6d]" started-at="2021-09-15T19:19:22 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:19:23 CEST" duration-ms="598" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveSignUpTests@6bffbc6d]" started-at="2021-09-15T21:17:28 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:17:29 CEST" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
       </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveSignUpTests -->
     </test> <!-- UserRegistrationTest2-FF -->
   </suite> <!-- PositiveSignUpTestSuite -->
-  <suite started-at="2021-09-15T19:19:05 CEST" name="DeleteAllUsersTestSuite" finished-at="2021-09-15T19:19:05 CEST" duration-ms="16">
+  <suite started-at="2021-09-15T21:17:08 CEST" name="DeleteAllUsersTestSuite" finished-at="2021-09-15T21:17:09 CEST" duration-ms="37">
     <groups>
     </groups>
-    <test started-at="2021-09-15T19:19:05 CEST" name="DeleteAllUsersTests" finished-at="2021-09-15T19:19:05 CEST" duration-ms="16">
+    <test started-at="2021-09-15T21:17:08 CEST" name="DeleteAllUsersTests" finished-at="2021-09-15T21:17:09 CEST" duration-ms="37">
       <class name="local.HLVTestApp.APITests.API_DeleteAllUsersTests">
-        <test-method signature="API_DeleteAllUsers(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteAllUsersTests@39de3d36]" started-at="2021-09-15T19:19:05 CEST" name="API_DeleteAllUsers" data-provider="csvReader" finished-at="2021-09-15T19:19:05 CEST" duration-ms="14" status="PASS">
+        <test-method signature="API_DeleteAllUsers(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteAllUsersTests@39de3d36]" started-at="2021-09-15T21:17:08 CEST" name="API_DeleteAllUsers" data-provider="csvReader" finished-at="2021-09-15T21:17:09 CEST" duration-ms="33" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1660,12 +1472,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
       </class> <!-- local.HLVTestApp.APITests.API_DeleteAllUsersTests -->
     </test> <!-- DeleteAllUsersTests -->
   </suite> <!-- DeleteAllUsersTestSuite -->
-  <suite started-at="2021-09-15T19:19:05 CEST" name="DeleteByUsernameTestSuite" finished-at="2021-09-15T19:19:05 CEST" duration-ms="59">
+  <suite started-at="2021-09-15T21:17:08 CEST" name="DeleteByUsernameTestSuite" finished-at="2021-09-15T21:17:08 CEST" duration-ms="107">
     <groups>
     </groups>
-    <test started-at="2021-09-15T19:19:05 CEST" name="DeleteByUsernameTests" finished-at="2021-09-15T19:19:05 CEST" duration-ms="59">
+    <test started-at="2021-09-15T21:17:08 CEST" name="DeleteByUsernameTests" finished-at="2021-09-15T21:17:08 CEST" duration-ms="107">
       <class name="local.HLVTestApp.APITests.API_DeleteByUsernameTests">
-        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@13ad5cd3]" started-at="2021-09-15T19:19:05 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-15T19:19:05 CEST" duration-ms="14" status="PASS">
+        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@13ad5cd3]" started-at="2021-09-15T21:17:08 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="47" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1676,7 +1488,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_DeleteByUsername -->
-        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@13ad5cd3]" started-at="2021-09-15T19:19:05 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-15T19:19:05 CEST" duration-ms="11" status="PASS">
+        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@13ad5cd3]" started-at="2021-09-15T21:17:08 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1687,7 +1499,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_DeleteByUsername -->
-        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@13ad5cd3]" started-at="2021-09-15T19:19:05 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-15T19:19:05 CEST" duration-ms="10" status="PASS">
+        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@13ad5cd3]" started-at="2021-09-15T21:17:08 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1698,7 +1510,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_DeleteByUsername -->
-        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@13ad5cd3]" started-at="2021-09-15T19:19:05 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-15T19:19:05 CEST" duration-ms="8" status="PASS">
+        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@13ad5cd3]" started-at="2021-09-15T21:17:08 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1709,7 +1521,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_DeleteByUsername -->
-        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@13ad5cd3]" started-at="2021-09-15T19:19:05 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-15T19:19:05 CEST" duration-ms="11" status="PASS">
+        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@13ad5cd3]" started-at="2021-09-15T21:17:08 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1723,12 +1535,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
       </class> <!-- local.HLVTestApp.APITests.API_DeleteByUsernameTests -->
     </test> <!-- DeleteByUsernameTests -->
   </suite> <!-- DeleteByUsernameTestSuite -->
-  <suite started-at="2021-09-15T19:20:46 CEST" name="ExternalLoginLinkTestSuite" finished-at="2021-09-15T19:21:05 CEST" duration-ms="19940">
+  <suite started-at="2021-09-15T21:18:55 CEST" name="ExternalLoginLinkTestSuite" finished-at="2021-09-15T21:19:15 CEST" duration-ms="19586">
     <groups>
     </groups>
-    <test started-at="2021-09-15T19:20:46 CEST" name="ExternalLoginLinkTest1-CH" finished-at="2021-09-15T19:20:53 CEST" duration-ms="7556">
+    <test started-at="2021-09-15T21:18:55 CEST" name="ExternalLoginLinkTest1-CH" finished-at="2021-09-15T21:19:02 CEST" duration-ms="7420">
       <class name="local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T19:20:46 CEST" name="setUp" finished-at="2021-09-15T19:20:47 CEST" duration-ms="1292" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T21:18:55 CEST" name="setUp" finished-at="2021-09-15T21:18:56 CEST" duration-ms="1326" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1737,14 +1549,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@37196d53]]>
+                <![CDATA[org.testng.TestRunner@7c2e88b9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLinkToSocialNetwork(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T19:20:47 CEST" name="verifyLinkToSocialNetwork" data-provider="csvReader" finished-at="2021-09-15T19:20:47 CEST" duration-ms="411" status="FAIL">
+        <test-method signature="verifyLinkToSocialNetwork(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T21:18:56 CEST" name="verifyLinkToSocialNetwork" data-provider="csvReader" finished-at="2021-09-15T21:18:57 CEST" duration-ms="336" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1801,11 +1613,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLinkToSocialNetwork -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T19:20:47 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:48 CEST" duration-ms="687" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T21:18:57 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:18:58 CEST" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T19:20:48 CEST" name="setUp" finished-at="2021-09-15T19:20:49 CEST" duration-ms="1287" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T21:18:58 CEST" name="setUp" finished-at="2021-09-15T21:18:59 CEST" duration-ms="1308" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1814,14 +1626,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@37196d53]]>
+                <![CDATA[org.testng.TestRunner@7c2e88b9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLinkToSocialNetwork(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T19:20:49 CEST" name="verifyLinkToSocialNetwork" data-provider="csvReader" finished-at="2021-09-15T19:20:50 CEST" duration-ms="363" status="FAIL">
+        <test-method signature="verifyLinkToSocialNetwork(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T21:18:59 CEST" name="verifyLinkToSocialNetwork" data-provider="csvReader" finished-at="2021-09-15T21:18:59 CEST" duration-ms="396" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1878,11 +1690,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLinkToSocialNetwork -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T19:20:50 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:51 CEST" duration-ms="705" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T21:18:59 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:19:00 CEST" duration-ms="673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T19:20:51 CEST" name="setUp" finished-at="2021-09-15T19:20:52 CEST" duration-ms="1355" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T21:19:00 CEST" name="setUp" finished-at="2021-09-15T21:19:01 CEST" duration-ms="1288" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1891,14 +1703,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@37196d53]]>
+                <![CDATA[org.testng.TestRunner@7c2e88b9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLinkToSocialNetwork(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T19:20:52 CEST" name="verifyLinkToSocialNetwork" data-provider="csvReader" finished-at="2021-09-15T19:20:52 CEST" duration-ms="289" status="FAIL">
+        <test-method signature="verifyLinkToSocialNetwork(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T21:19:01 CEST" name="verifyLinkToSocialNetwork" data-provider="csvReader" finished-at="2021-09-15T21:19:02 CEST" duration-ms="241" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1955,15 +1767,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLinkToSocialNetwork -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T19:20:52 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:53 CEST" duration-ms="635" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@4ed5eb72]" started-at="2021-09-15T21:19:02 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:19:02 CEST" duration-ms="638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
       </class> <!-- local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests -->
     </test> <!-- ExternalLoginLinkTest1-CH -->
-    <test started-at="2021-09-15T19:20:53 CEST" name="ExternalLoginLinkTest2-FF" finished-at="2021-09-15T19:21:05 CEST" duration-ms="12367">
+    <test started-at="2021-09-15T21:19:02 CEST" name="ExternalLoginLinkTest2-FF" finished-at="2021-09-15T21:19:15 CEST" duration-ms="12157">
       <class name="local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T19:20:53 CEST" name="setUp" finished-at="2021-09-15T19:20:56 CEST" duration-ms="3004" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T21:19:02 CEST" name="setUp" finished-at="2021-09-15T21:19:05 CEST" duration-ms="2941" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1972,14 +1784,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@40105b39]]>
+                <![CDATA[org.testng.TestRunner@3c5044fa]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLinkToSocialNetwork(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T19:20:56 CEST" name="verifyLinkToSocialNetwork" data-provider="csvReader" finished-at="2021-09-15T19:20:56 CEST" duration-ms="350" status="FAIL">
+        <test-method signature="verifyLinkToSocialNetwork(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T21:19:05 CEST" name="verifyLinkToSocialNetwork" data-provider="csvReader" finished-at="2021-09-15T21:19:06 CEST" duration-ms="332" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2036,11 +1848,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLinkToSocialNetwork -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T19:20:57 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:20:57 CEST" duration-ms="628" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T21:19:06 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:19:07 CEST" duration-ms="713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T19:20:57 CEST" name="setUp" finished-at="2021-09-15T19:21:00 CEST" duration-ms="2957" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T21:19:07 CEST" name="setUp" finished-at="2021-09-15T21:19:10 CEST" duration-ms="2972" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2049,14 +1861,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@40105b39]]>
+                <![CDATA[org.testng.TestRunner@3c5044fa]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLinkToSocialNetwork(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T19:21:00 CEST" name="verifyLinkToSocialNetwork" data-provider="csvReader" finished-at="2021-09-15T19:21:01 CEST" duration-ms="396" status="FAIL">
+        <test-method signature="verifyLinkToSocialNetwork(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T21:19:10 CEST" name="verifyLinkToSocialNetwork" data-provider="csvReader" finished-at="2021-09-15T21:19:10 CEST" duration-ms="312" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2113,11 +1925,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLinkToSocialNetwork -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T19:21:01 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:21:01 CEST" duration-ms="791" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T21:19:10 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:19:11 CEST" duration-ms="634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
-        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T19:21:01 CEST" name="setUp" finished-at="2021-09-15T19:21:04 CEST" duration-ms="2964" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T21:19:11 CEST" name="setUp" finished-at="2021-09-15T21:19:14 CEST" duration-ms="2964" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2126,14 +1938,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@40105b39]]>
+                <![CDATA[org.testng.TestRunner@3c5044fa]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLinkToSocialNetwork(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T19:21:04 CEST" name="verifyLinkToSocialNetwork" data-provider="csvReader" finished-at="2021-09-15T19:21:05 CEST" duration-ms="354" status="FAIL">
+        <test-method signature="verifyLinkToSocialNetwork(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T21:19:14 CEST" name="verifyLinkToSocialNetwork" data-provider="csvReader" finished-at="2021-09-15T21:19:14 CEST" duration-ms="351" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2190,23 +2002,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLinkToSocialNetwork -->
-        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T19:21:05 CEST" name="tearDownAfterEach" finished-at="2021-09-15T19:21:05 CEST" duration-ms="613" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests@40db2a24]" started-at="2021-09-15T21:19:14 CEST" name="tearDownAfterEach" finished-at="2021-09-15T21:19:15 CEST" duration-ms="619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterEach -->
       </class> <!-- local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests -->
     </test> <!-- ExternalLoginLinkTest2-FF -->
   </suite> <!-- ExternalLoginLinkTestSuite -->
-  <suite started-at="2021-09-15T19:21:06 CEST" name="HLV App Test Suites" finished-at="2021-09-15T19:21:06 CEST" duration-ms="0">
+  <suite started-at="2021-09-15T21:19:15 CEST" name="HLV App Test Suites" finished-at="2021-09-15T21:19:15 CEST" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- HLV App Test Suites -->
-  <suite started-at="2021-09-15T19:19:03 CEST" name="RegisterUserTestSuite" finished-at="2021-09-15T19:19:05 CEST" duration-ms="1517">
+  <suite started-at="2021-09-15T21:17:05 CEST" name="RegisterUserTestSuite" finished-at="2021-09-15T21:17:08 CEST" duration-ms="2946">
     <groups>
     </groups>
-    <test started-at="2021-09-15T19:19:03 CEST" name="RegisterUserTests" finished-at="2021-09-15T19:19:05 CEST" duration-ms="1517">
+    <test started-at="2021-09-15T21:17:05 CEST" name="RegisterUserTests" finished-at="2021-09-15T21:17:08 CEST" duration-ms="2946">
       <class name="local.HLVTestApp.APITests.API_RegisterUserTests">
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T19:19:03 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T19:19:04 CEST" duration-ms="1321" status="PASS">
+        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T21:17:05 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="2739" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2217,7 +2029,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T19:19:04 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T19:19:04 CEST" duration-ms="34" status="PASS">
+        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T21:17:08 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="34" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2228,7 +2040,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T19:19:04 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T19:19:04 CEST" duration-ms="17" status="PASS">
+        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T21:17:08 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2239,7 +2051,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T19:19:04 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T19:19:04 CEST" duration-ms="18" status="PASS">
+        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T21:17:08 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="26" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2250,7 +2062,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T19:19:04 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T19:19:04 CEST" duration-ms="12" status="PASS">
+        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T21:17:08 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2261,7 +2073,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T19:19:04 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T19:19:04 CEST" duration-ms="17" status="PASS">
+        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T21:17:08 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="20" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2272,7 +2084,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T19:19:04 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T19:19:04 CEST" duration-ms="16" status="PASS">
+        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T21:17:08 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2283,7 +2095,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T19:19:04 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T19:19:05 CEST" duration-ms="15" status="PASS">
+        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T21:17:08 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2294,7 +2106,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T19:19:05 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T19:19:05 CEST" duration-ms="11" status="PASS">
+        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@c7ba306]" started-at="2021-09-15T21:17:08 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-15T21:17:08 CEST" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>

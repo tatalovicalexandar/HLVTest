@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>3/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 15 19:20:21 CEST 2021</td>
+<td>Started on:</td><td>Wed Sep 15 21:18:30 CEST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>24 seconds (24997 ms)</td>
+<tr><td>Total time:</td><td>25 seconds (25205 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,12 +75,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfulLoginActionOnMainPage()'><b>verifyUnsuccessfulLoginActionOnMainPage</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeLoginTests<br>Parameters: {no=1, description=incorrect username, password=testPassword1, expectedMessage=Invalid Email. Try again., username=incorrectUsername}</td>
-<td><div><pre>java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=incorrectUsername&amp;password=testPassword1]
+<td title='local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfulLoginActionOnMainPage()'><b>verifyUnsuccessfulLoginActionOnMainPage</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeLoginTests<br>Parameters: {no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=Invalid Email. Try again., username=incorrectUsername}</td>
+<td><div><pre>java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=incorrectUsername&amp;password=incorrectPassword]
 	at local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfulLoginActionOnMainPage(NegativeLoginTests.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace7313260", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace7313260'><pre>java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=incorrectUsername&amp;password=testPassword1]
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace876008407", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace876008407'><pre>java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=incorrectUsername&amp;password=incorrectPassword]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -122,12 +122,12 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb</td></tr>
 <tr>
-<td title='local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfulLoginActionOnMainPage()'><b>verifyUnsuccessfulLoginActionOnMainPage</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeLoginTests<br>Parameters: {no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=Invalid Email. Try again., username=incorrectUsername}</td>
-<td><div><pre>java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=incorrectUsername&amp;password=incorrectPassword]
+<td title='local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfulLoginActionOnMainPage()'><b>verifyUnsuccessfulLoginActionOnMainPage</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeLoginTests<br>Parameters: {no=1, description=incorrect username, password=testPassword1, expectedMessage=Invalid Email. Try again., username=incorrectUsername}</td>
+<td><div><pre>java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=incorrectUsername&amp;password=testPassword1]
 	at local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfulLoginActionOnMainPage(NegativeLoginTests.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1640056267", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1640056267'><pre>java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=incorrectUsername&amp;password=incorrectPassword]
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1538125216", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1538125216'><pre>java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=incorrectUsername&amp;password=testPassword1]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -173,8 +173,8 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername1&amp;password=incorrectPassword]
 	at local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfulLoginActionOnMainPage(NegativeLoginTests.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace510382951", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace510382951'><pre>java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername1&amp;password=incorrectPassword]
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2141739605", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2141739605'><pre>java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername1&amp;password=incorrectPassword]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -224,12 +224,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfulLoginActionOnLoginPage()'><b>verifyUnsuccessfulLoginActionOnLoginPage</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeLoginTests<br>Parameters: {no=1, description=incorrect username, password=testPassword1, expectedMessage=Invalid Email. Try again., username=incorrectUsername}</td>
+<td title='local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfulLoginActionOnLoginPage()'><b>verifyUnsuccessfulLoginActionOnLoginPage</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeLoginTests<br>Parameters: {no=2, description=incorrect password, password=incorrectPassword, expectedMessage=Invalid Email. Try again., username=testUsername1}</td>
 <td></td>
 <td>0</td>
 <td>local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb</td></tr>
 <tr>
-<td title='local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfulLoginActionOnLoginPage()'><b>verifyUnsuccessfulLoginActionOnLoginPage</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeLoginTests<br>Parameters: {no=2, description=incorrect password, password=incorrectPassword, expectedMessage=Invalid Email. Try again., username=testUsername1}</td>
+<td title='local.HLVTestApp.loginandsignuptests.NegativeLoginTests.verifyUnsuccessfulLoginActionOnLoginPage()'><b>verifyUnsuccessfulLoginActionOnLoginPage</b><br>Test class: local.HLVTestApp.loginandsignuptests.NegativeLoginTests<br>Parameters: {no=1, description=incorrect username, password=testPassword1, expectedMessage=Invalid Email. Try again., username=incorrectUsername}</td>
 <td></td>
 <td>0</td>
 <td>local.HLVTestApp.loginandsignuptests.NegativeLoginTests@29a0cdb</td></tr>
