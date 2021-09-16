@@ -1,6 +1,8 @@
 package local.HLVTestApp.pages;
 
 import java.time.Duration;
+
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
@@ -12,9 +14,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BasePageObject {
 
 	protected WebDriver driver;
+	protected Logger log;
 	
-	public BasePageObject(WebDriver driver) {
+	public BasePageObject(WebDriver driver, Logger log) {
 		this.driver = driver;
+		this.log = log;
 	}
 	
 	/** Open page with given URL */

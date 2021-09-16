@@ -14,7 +14,7 @@ public class PositiveSignUpTests extends BaseTest {
 	public void verifySuccessfulSignUpAction(Map<String, String> testData) {
 
 		// Data from data provider
-		// String no = testData.get("no");
+		String no = testData.get("no");
 		String firstName = testData.get("firstName");
 		String lastName = testData.get("lastName");
 		String username = testData.get("username");
@@ -22,12 +22,16 @@ public class PositiveSignUpTests extends BaseTest {
 		String password = testData.get("password");
 		String mobile = testData.get("mobile");
 		String expectedMessage = testData.get("expectedMessage");
+		String description = testData.get("description");
+
+		// Initial starting test log
+		log.info("Starting verifySuccessfulSignUpActionTest #" + no + " for " + description);
 
 		// Include test in test report
 		test = report.createTest("verifySuccessfulSignUpAction");
 
 		// Open main page
-		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
+		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver, log);
 		mainPage.openPage();
 
 		// Open Sign Up Form page
@@ -48,7 +52,7 @@ public class PositiveSignUpTests extends BaseTest {
 		// Assert.assertEquals(expectedSuccessfulMessage, actualMessage);
 		Assert.assertEquals(actualMessage, expectedMessage);
 	}
-	
+
 	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)
 	public void verifySuccessfulSignUpActionChrome(Map<String, String> testData) {
 

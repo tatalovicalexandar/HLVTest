@@ -1,3 +1,3 @@
-no,firstName,lastName,username,email,password,mobile,expectedMessage
-1,testFirstName1,testLastName1,testUsername1,test1@hlv.com,testPassword1,testMobile1,User has been successfully registered.
-2,testFirstName2,testLastName2,testUsername2,test2@hlv.com,testPassword2,testMobile2,User has been successfully registered.
+no,firstName,lastName,username,email,password,mobile,expectedMessage,description
+1,testFirstName1,testLastName1,testUsername1,test1@hlv.com,testPassword1,testMobile1,User has been successfully registered.,Successfully registered user 1
+2,testFirstName2,testLastName2,testUsername2,test2@hlv.com,testPassword2,testMobile2,User has been successfully registered.,Successfully registered user 2

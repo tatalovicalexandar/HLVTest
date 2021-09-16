@@ -1,5 +1,6 @@
 package local.HLVTestApp.pages;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -17,8 +18,8 @@ public class SignUpPageObject extends BasePageObject{
 	private By formSignUpButtonLocator = By.xpath("//button[@class='signupbtn']");
 	
 	
-	public SignUpPageObject(WebDriver driver) {
-		super(driver);
+	public SignUpPageObject(WebDriver driver, Logger log) {
+		super(driver, log);
 	}
 	
 	/** Execute sign up */
@@ -30,7 +31,7 @@ public class SignUpPageObject extends BasePageObject{
 		type(password, formPasswordTextBoxLocator);
 		type(mobile, formMobileTextBoxLocator);
 		click(formSignUpButtonLocator);
-		return new FinalSignUpPageObject(driver);
+		return new FinalSignUpPageObject(driver, log);
 	}
 	
 	/** Cancel sign up*/

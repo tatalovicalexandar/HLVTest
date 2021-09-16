@@ -1,5 +1,7 @@
 package local.HLVTestApp.base;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
@@ -15,6 +17,7 @@ public class BaseTest {
 
 	protected static WebDriver driver;
 	protected String testName;
+	protected Logger log;
 	
 	//get the reference of ExtentReports object to instantiate HTML reporting
     public static ExtentReports report = ExtentReporting.getExtentReportInstance();
@@ -27,8 +30,9 @@ public class BaseTest {
 	public void setUp(@Optional("chrome") String browser, ITestContext ctx){
 		String testName = ctx.getCurrentXmlTest().getName();
 		this.testName = testName;
+		log = LogManager.getLogger(testName);
 		
-		BrowserDriverFactory factory = new BrowserDriverFactory(browser);
+		BrowserDriverFactory factory = new BrowserDriverFactory(browser, log);
 		driver = factory.createDriver();
 		driver.manage().window().maximize();
 	}
@@ -36,6 +40,7 @@ public class BaseTest {
 	@AfterMethod(alwaysRun = true)
 	public void tearDownAfterEach() {
 		// Close browser
+		log.info("Close driver");
 		driver.quit();
 	}
 	

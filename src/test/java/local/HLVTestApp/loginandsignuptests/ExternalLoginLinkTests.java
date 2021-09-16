@@ -14,15 +14,19 @@ public class ExternalLoginLinkTests extends BaseTest {
 	public void verifyLinkToSocialNetwork(Map<String, String> testData) {
 
 		// Data from data provider
-		// String no = testData.get("no");
+		String no = testData.get("no");
 		String socialNetwork = testData.get("socialNetwork");
 		String expectedURL = testData.get("expectedURL");
 
+		// Initial starting test log
+		log.info("Starting verifyLinkToSocialNetworkTest #" + no + " for " + socialNetwork);
+
 		// Include test in test report
-		test = report.createTest("verifySuccessfulLoginActionOnMainPage");
+		test = report.createTest("verifyLinkToSocialNetwork");
+		
 
 		// Open main page
-		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
+		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver, log);
 		mainPage.openPage();
 
 		// Click on Login with social network button

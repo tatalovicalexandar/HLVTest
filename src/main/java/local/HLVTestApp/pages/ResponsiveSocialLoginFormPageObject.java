@@ -1,12 +1,13 @@
 package local.HLVTestApp.pages;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class ResponsiveSocialLoginFormPageObject extends BasePageObject{
 
-	public ResponsiveSocialLoginFormPageObject(WebDriver driver) {
-		super(driver);
+	public ResponsiveSocialLoginFormPageObject(WebDriver driver, Logger log) {
+		super(driver, log);
 	}
 	
 	private String pageUrl = "http://localhost:8080/";
@@ -50,13 +51,13 @@ public class ResponsiveSocialLoginFormPageObject extends BasePageObject{
 	/** Open LoginPage by clicking on Log In Button */
 	public LoginFormPageObject clickOnLogInButton() {
 		click(formLogInButtonLocator);
-		return new LoginFormPageObject(driver);
+		return new LoginFormPageObject(driver, log);
 	}
 	
 	/** Open SignUpPage by clicking on Sign Up Button */
 	public SignUpPageObject clickOnSignUpButton() {
 		click(formSignUpButtonLocator);
-		return new SignUpPageObject(driver);
+		return new SignUpPageObject(driver, log);
 	}
 
 	/** Execute log in on Responsive Social Login Form Page */

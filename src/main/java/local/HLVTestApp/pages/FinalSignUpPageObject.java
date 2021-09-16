@@ -1,5 +1,6 @@
 package local.HLVTestApp.pages;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -10,8 +11,8 @@ public class FinalSignUpPageObject  extends BasePageObject{
 	private By formHomeLink = By.xpath("//a[@href='/']");
 	private By message = By.xpath("//h3[1]");
 
-	public FinalSignUpPageObject(WebDriver driver) {
-		super(driver);
+	public FinalSignUpPageObject(WebDriver driver, Logger log) {
+		super(driver, log);
 	}
 
 	/** Get URL variable from PageObject */

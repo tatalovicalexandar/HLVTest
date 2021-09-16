@@ -1,348 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="29" passed="27" failed="2" skipped="0">
+<testng-results ignored="0" total="8" passed="4" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-16T02:34:17 CEST" name="FindByUsernameTestSuite" finished-at="2021-09-16T02:34:17 CEST" duration-ms="184">
+  <suite started-at="2021-09-16T11:19:49 CEST" name="PositiveLoginTestSuite" finished-at="2021-09-16T11:20:18 CEST" duration-ms="29098">
     <groups>
     </groups>
-    <test started-at="2021-09-16T02:34:17 CEST" name="FindByUsernameTests" finished-at="2021-09-16T02:34:17 CEST" duration-ms="184">
-      <class name="local.HLVTestApp.APITests.API_FindByUsernameTests">
-        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@49049a04]" started-at="2021-09-16T02:34:17 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-16T02:34:17 CEST" duration-ms="13" status="PASS">
+    <test started-at="2021-09-16T11:19:49 CEST" name="PositiveLoginOnMainPageTest1-CH" finished-at="2021-09-16T11:20:01 CEST" duration-ms="11649">
+      <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@7e057f43]" started-at="2021-09-16T11:19:49 CEST" name="setUp" finished-at="2021-09-16T11:19:51 CEST" duration-ms="2364" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=1, bodyFirstName=firstName":"test1, description=get user - valid 1, bodyLastName=lastName":"test1, username=test1, statusCode=200, bodyUsername=username":"test1}]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@55296b50]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- API_FindByUsername -->
-        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@49049a04]" started-at="2021-09-16T02:34:17 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-16T02:34:17 CEST" duration-ms="9" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@7e057f43]" started-at="2021-09-16T11:19:51 CEST" name="verifySuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-16T11:19:52 CEST" duration-ms="736" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=2, bodyFirstName=firstName":"test2, description=get user - valid 2, bodyLastName=lastName":"test2, username=test2, statusCode=200, bodyUsername=username":"test2}]]>
+                <![CDATA[{no=1, description=valid username and password 1, password=testPassword1, username=testUsername1}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- API_FindByUsername -->
-        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@49049a04]" started-at="2021-09-16T02:34:17 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-16T02:34:17 CEST" duration-ms="14" status="PASS">
+        </test-method> <!-- verifySuccessfulLoginActionOnLoginPage -->
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@7e057f43]" started-at="2021-09-16T11:19:52 CEST" name="tearDownAfterEach" finished-at="2021-09-16T11:19:53 CEST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterEach -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@7e057f43]" started-at="2021-09-16T11:19:53 CEST" name="setUp" finished-at="2021-09-16T11:19:54 CEST" duration-ms="1266" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=3, bodyFirstName=firstName":"test3, description=get user - valid 3, bodyLastName=lastName":"test3, username=test3, statusCode=200, bodyUsername=username":"test3}]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@55296b50]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- API_FindByUsername -->
-        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@49049a04]" started-at="2021-09-16T02:34:17 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-16T02:34:17 CEST" duration-ms="9" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@7e057f43]" started-at="2021-09-16T11:19:54 CEST" name="verifySuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-16T11:19:55 CEST" duration-ms="692" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=4, bodyFirstName=, description=Login with invalid username, bodyLastName=, username=invalidUsername, statusCode=404, bodyUsername=}]]>
+                <![CDATA[{no=2, description=valid username and password 2, password=testPassword2, username=testUsername2}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- API_FindByUsername -->
-        <test-method signature="API_FindByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_FindByUsernameTests@49049a04]" started-at="2021-09-16T02:34:17 CEST" name="API_FindByUsername" data-provider="csvReader" finished-at="2021-09-16T02:34:17 CEST" duration-ms="134" status="PASS">
+        </test-method> <!-- verifySuccessfulLoginActionOnLoginPage -->
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@7e057f43]" started-at="2021-09-16T11:19:55 CEST" name="tearDownAfterEach" finished-at="2021-09-16T11:19:55 CEST" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterEach -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@7e057f43]" started-at="2021-09-16T11:19:55 CEST" name="setUp" finished-at="2021-09-16T11:19:57 CEST" duration-ms="1247" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=5, bodyFirstName=, description=Empty username, bodyLastName=, username=, statusCode=404, bodyUsername=}]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@55296b50]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- API_FindByUsername -->
-      </class> <!-- local.HLVTestApp.APITests.API_FindByUsernameTests -->
-    </test> <!-- FindByUsernameTests -->
-  </suite> <!-- FindByUsernameTestSuite -->
-  <suite started-at="2021-09-16T02:34:17 CEST" name="AllAPITestSuites" finished-at="2021-09-16T02:34:17 CEST" duration-ms="0">
-    <groups>
-    </groups>
-  </suite> <!-- AllAPITestSuites -->
-  <suite started-at="2021-09-16T02:34:17 CEST" name="DeleteAllUsersTestSuite" finished-at="2021-09-16T02:34:17 CEST" duration-ms="39">
-    <groups>
-    </groups>
-    <test started-at="2021-09-16T02:34:17 CEST" name="DeleteAllUsersTests" finished-at="2021-09-16T02:34:17 CEST" duration-ms="39">
-      <class name="local.HLVTestApp.APITests.API_DeleteAllUsersTests">
-        <test-method signature="API_DeleteAllUsers(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteAllUsersTests@47d9a273]" started-at="2021-09-16T02:34:17 CEST" name="API_DeleteAllUsers" data-provider="csvReader" finished-at="2021-09-16T02:34:17 CEST" duration-ms="37" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@7e057f43]" started-at="2021-09-16T11:19:57 CEST" name="verifySuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-16T11:19:57 CEST" duration-ms="516" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=1, description=Delete all users, body=All users removed, statusCode=200}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_DeleteAllUsers -->
-      </class> <!-- local.HLVTestApp.APITests.API_DeleteAllUsersTests -->
-    </test> <!-- DeleteAllUsersTests -->
-  </suite> <!-- DeleteAllUsersTestSuite -->
-  <suite started-at="2021-09-16T02:34:17 CEST" name="DeleteByUsernameTestSuite" finished-at="2021-09-16T02:34:17 CEST" duration-ms="65">
-    <groups>
-    </groups>
-    <test started-at="2021-09-16T02:34:17 CEST" name="DeleteByUsernameTests" finished-at="2021-09-16T02:34:17 CEST" duration-ms="65">
-      <class name="local.HLVTestApp.APITests.API_DeleteByUsernameTests">
-        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@47e2e487]" started-at="2021-09-16T02:34:17 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-16T02:34:17 CEST" duration-ms="15" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=1, description=delete user - valid 1, body=User with username test1 is removed, username=test1, statusCode=200}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_DeleteByUsername -->
-        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@47e2e487]" started-at="2021-09-16T02:34:17 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-16T02:34:17 CEST" duration-ms="11" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=2, description=delete user - valid 2, body=User with username test2 is removed, username=test2, statusCode=200}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_DeleteByUsername -->
-        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@47e2e487]" started-at="2021-09-16T02:34:17 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-16T02:34:17 CEST" duration-ms="11" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=3, description=delete user - valid 3, body=User with username test3 is removed, username=test3, statusCode=200}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_DeleteByUsername -->
-        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@47e2e487]" started-at="2021-09-16T02:34:17 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-16T02:34:17 CEST" duration-ms="10" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=4, description=, body=, username=invalidUsername, statusCode=400}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_DeleteByUsername -->
-        <test-method signature="API_DeleteByUsername(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_DeleteByUsernameTests@47e2e487]" started-at="2021-09-16T02:34:17 CEST" name="API_DeleteByUsername" data-provider="csvReader" finished-at="2021-09-16T02:34:17 CEST" duration-ms="12" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=5, description=, body=, username=, statusCode=404}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_DeleteByUsername -->
-      </class> <!-- local.HLVTestApp.APITests.API_DeleteByUsernameTests -->
-    </test> <!-- DeleteByUsernameTests -->
-  </suite> <!-- DeleteByUsernameTestSuite -->
-  <suite started-at="2021-09-16T02:34:15 CEST" name="RegisterUserTestSuite" finished-at="2021-09-16T02:34:16 CEST" duration-ms="1485">
-    <groups>
-    </groups>
-    <test started-at="2021-09-16T02:34:15 CEST" name="RegisterUserTests" finished-at="2021-09-16T02:34:16 CEST" duration-ms="1485">
-      <class name="local.HLVTestApp.APITests.API_RegisterUserTests">
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@57d7f8ca]" started-at="2021-09-16T02:34:15 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="1277" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=1, firstName=test1, lastName=test1, password=test1, description=valid username and password, body=, username=test1, statusCode=201}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@57d7f8ca]" started-at="2021-09-16T02:34:16 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="30" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=2, firstName=test11111111111111111111111, lastName=test11, password=test11, description=Too long first name, body=First Name should be less than 15, username=test11, statusCode=400}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@57d7f8ca]" started-at="2021-09-16T02:34:16 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="14" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=3, firstName=test111, lastName=test11111111111111111111111, password=test111, description=Too long last name, body=LAst Name should be less than 15, username=test111, statusCode=400}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@57d7f8ca]" started-at="2021-09-16T02:34:16 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="18" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=4, firstName=test1111, lastName=test1111, password=test1111, description=User already exist, body=User with the specified username already exists!, username=test1, statusCode=400}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@57d7f8ca]" started-at="2021-09-16T02:34:16 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="12" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=5, firstName=test11111, lastName=test11111, password=test11111, description=Too long username, body=Username must not be longer that 50 characters or shorter than 6 characters., username=test11111111111111111111111111111111111111111111111111111111, statusCode=400}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@57d7f8ca]" started-at="2021-09-16T02:34:16 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="18" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=6, firstName=test2, lastName=test2, password=test2, description=valid username and password 2, body=, username=test2, statusCode=201}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@57d7f8ca]" started-at="2021-09-16T02:34:16 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="13" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=7, firstName=test3, lastName=test3, password=test3, description=valid username and password 3, body=, username=test3, statusCode=201}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@57d7f8ca]" started-at="2021-09-16T02:34:16 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="19" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=8, firstName=test4, lastName=test4, password=test4, description=valid username and password 4, body=, username=test4, statusCode=201}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_RegisterUser -->
-        <test-method signature="API_RegisterUser(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_RegisterUserTests@57d7f8ca]" started-at="2021-09-16T02:34:16 CEST" name="API_RegisterUser" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="11" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=9, firstName=test5, lastName=test5, password=test5, description=valid username and password 5, body=, username=test5, statusCode=201}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_RegisterUser -->
-      </class> <!-- local.HLVTestApp.APITests.API_RegisterUserTests -->
-    </test> <!-- RegisterUserTests -->
-  </suite> <!-- RegisterUserTestSuite -->
-  <suite started-at="2021-09-16T02:34:16 CEST" name="ValidateLoginTestSuite" finished-at="2021-09-16T02:34:17 CEST" duration-ms="197">
-    <groups>
-    </groups>
-    <test started-at="2021-09-16T02:34:16 CEST" name="ValidateLoginTests" finished-at="2021-09-16T02:34:17 CEST" duration-ms="197">
-      <class name="local.HLVTestApp.APITests.API_ValidateLoginTests">
-        <test-method signature="API_ValidateLogin(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_ValidateLoginTests@1e1a0406]" started-at="2021-09-16T02:34:16 CEST" name="API_ValidateLogin" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="20" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=1, firstName=test1, lastName=test1, password=test1, description=successful login 1, body=, username=test1, statusCode=200}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_ValidateLogin -->
-        <test-method signature="API_ValidateLogin(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_ValidateLoginTests@1e1a0406]" started-at="2021-09-16T02:34:16 CEST" name="API_ValidateLogin" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="9" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=2, firstName=test2, lastName=test2, password=test2, description=successful login 2, body=, username=test2, statusCode=200}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_ValidateLogin -->
-        <test-method signature="API_ValidateLogin(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_ValidateLoginTests@1e1a0406]" started-at="2021-09-16T02:34:16 CEST" name="API_ValidateLogin" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="13" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=3, firstName=test3, lastName=test3, password=test3, description=successful login 3, body=, username=test3, statusCode=200}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_ValidateLogin -->
-        <test-method signature="API_ValidateLogin(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_ValidateLoginTests@1e1a0406]" started-at="2021-09-16T02:34:16 CEST" name="API_ValidateLogin" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="11" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=4, firstName=test4, lastName=test4, password=test4, description=successful login 4, body=, username=test4, statusCode=200}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_ValidateLogin -->
-        <test-method signature="API_ValidateLogin(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_ValidateLoginTests@1e1a0406]" started-at="2021-09-16T02:34:16 CEST" name="API_ValidateLogin" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="11" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=5, firstName=test5, lastName=test5, password=test5, description=successful login 5, body=, username=test5, statusCode=200}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API_ValidateLogin -->
-        <test-method signature="API_ValidateLogin(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_ValidateLoginTests@1e1a0406]" started-at="2021-09-16T02:34:16 CEST" name="API_ValidateLogin" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="15" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{no=6, firstName=incorrectFirstName, lastName=test1, password=test1, description=Login failed - Incorrect firstName, body=Login failed., username=test1, statusCode=417}]]>
+                <![CDATA[{no=1, description=valid username and password 1, password=testPassword1, username=testUsername1}]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [417] but found [200]]]>
+              <![CDATA[expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername1&password=testPassword1]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [417] but found [200]
+              <![CDATA[java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername1&password=testPassword1]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:907)
-at org.testng.Assert.assertEquals(Assert.java:917)
-at local.HLVTestApp.APITests.API_ValidateLoginTests.API_ValidateLogin(API_ValidateLoginTests.java:48)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at local.HLVTestApp.loginandsignuptests.PositiveLoginTests.verifySuccessfulLoginActionOnMainPage(PositiveLoginTests.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -351,48 +118,73 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- API_ValidateLogin -->
-        <test-method signature="API_ValidateLogin(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_ValidateLoginTests@1e1a0406]" started-at="2021-09-16T02:34:16 CEST" name="API_ValidateLogin" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="44" status="FAIL">
+        </test-method> <!-- verifySuccessfulLoginActionOnMainPage -->
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@7e057f43]" started-at="2021-09-16T11:19:58 CEST" name="tearDownAfterEach" finished-at="2021-09-16T11:19:58 CEST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterEach -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@7e057f43]" started-at="2021-09-16T11:19:58 CEST" name="setUp" finished-at="2021-09-16T11:20:00 CEST" duration-ms="1321" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=7, firstName=test1, lastName=incorrectLastName, password=test1, description=Login failed - Incorrect lastName, body=Login failed., username=test1, statusCode=417}]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@55296b50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@7e057f43]" started-at="2021-09-16T11:20:00 CEST" name="verifySuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-16T11:20:00 CEST" duration-ms="396" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=2, description=valid username and password 2, password=testPassword2, username=testUsername2}]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [417] but found [200]]]>
+              <![CDATA[expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername2&password=testPassword2]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [417] but found [200]
+              <![CDATA[java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername2&password=testPassword2]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:907)
-at org.testng.Assert.assertEquals(Assert.java:917)
-at local.HLVTestApp.APITests.API_ValidateLoginTests.API_ValidateLogin(API_ValidateLoginTests.java:48)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at local.HLVTestApp.loginandsignuptests.PositiveLoginTests.verifySuccessfulLoginActionOnMainPage(PositiveLoginTests.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -401,46 +193,249 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- API_ValidateLogin -->
-        <test-method signature="API_ValidateLogin(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_ValidateLoginTests@1e1a0406]" started-at="2021-09-16T02:34:16 CEST" name="API_ValidateLogin" data-provider="csvReader" finished-at="2021-09-16T02:34:16 CEST" duration-ms="40" status="PASS">
+        </test-method> <!-- verifySuccessfulLoginActionOnMainPage -->
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@7e057f43]" started-at="2021-09-16T11:20:00 CEST" name="tearDownAfterEach" finished-at="2021-09-16T11:20:01 CEST" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterEach -->
+      </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
+    </test> <!-- PositiveLoginOnMainPageTest1-CH -->
+    <test started-at="2021-09-16T11:20:01 CEST" name="PositiveLoginOnMainPageTest2-FF" finished-at="2021-09-16T11:20:18 CEST" duration-ms="17432">
+      <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@14fc5f04]" started-at="2021-09-16T11:20:01 CEST" name="setUp" finished-at="2021-09-16T11:20:04 CEST" duration-ms="3550" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=8, firstName=test1, lastName=test1, password=incorrectPassword, description=Login failed - Incorrect password, body=Login failed., username=test1, statusCode=417}]]>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ee4706d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- API_ValidateLogin -->
-        <test-method signature="API_ValidateLogin(java.util.Map)[pri:0, instance:local.HLVTestApp.APITests.API_ValidateLoginTests@1e1a0406]" started-at="2021-09-16T02:34:16 CEST" name="API_ValidateLogin" data-provider="csvReader" finished-at="2021-09-16T02:34:17 CEST" duration-ms="21" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@14fc5f04]" started-at="2021-09-16T11:20:04 CEST" name="verifySuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-16T11:20:05 CEST" duration-ms="810" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{no=9, firstName=test1, lastName=test1, password=test1, description=Login failed - Incorrect username, body=Login failed., username=incorrectUsername, statusCode=417}]]>
+                <![CDATA[{no=1, description=valid username and password 1, password=testPassword1, username=testUsername1}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- API_ValidateLogin -->
-      </class> <!-- local.HLVTestApp.APITests.API_ValidateLoginTests -->
-    </test> <!-- ValidateLoginTests -->
-  </suite> <!-- ValidateLoginTestSuite -->
+        </test-method> <!-- verifySuccessfulLoginActionOnLoginPage -->
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@14fc5f04]" started-at="2021-09-16T11:20:05 CEST" name="tearDownAfterEach" finished-at="2021-09-16T11:20:06 CEST" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterEach -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@14fc5f04]" started-at="2021-09-16T11:20:06 CEST" name="setUp" finished-at="2021-09-16T11:20:09 CEST" duration-ms="2916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ee4706d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulLoginActionOnLoginPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@14fc5f04]" started-at="2021-09-16T11:20:09 CEST" name="verifySuccessfulLoginActionOnLoginPage" data-provider="csvReader" finished-at="2021-09-16T11:20:09 CEST" duration-ms="732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=2, description=valid username and password 2, password=testPassword2, username=testUsername2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLoginActionOnLoginPage -->
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@14fc5f04]" started-at="2021-09-16T11:20:09 CEST" name="tearDownAfterEach" finished-at="2021-09-16T11:20:10 CEST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterEach -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@14fc5f04]" started-at="2021-09-16T11:20:10 CEST" name="setUp" finished-at="2021-09-16T11:20:13 CEST" duration-ms="2883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ee4706d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@14fc5f04]" started-at="2021-09-16T11:20:13 CEST" name="verifySuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-16T11:20:13 CEST" duration-ms="364" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=1, description=valid username and password 1, password=testPassword1, username=testUsername1}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername1&password=testPassword1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername1&password=testPassword1]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at local.HLVTestApp.loginandsignuptests.PositiveLoginTests.verifySuccessfulLoginActionOnMainPage(PositiveLoginTests.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLoginActionOnMainPage -->
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@14fc5f04]" started-at="2021-09-16T11:20:13 CEST" name="tearDownAfterEach" finished-at="2021-09-16T11:20:14 CEST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterEach -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@14fc5f04]" started-at="2021-09-16T11:20:14 CEST" name="setUp" finished-at="2021-09-16T11:20:17 CEST" duration-ms="2869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ee4706d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulLoginActionOnMainPage(java.util.Map)[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@14fc5f04]" started-at="2021-09-16T11:20:17 CEST" name="verifySuccessfulLoginActionOnMainPage" data-provider="csvReader" finished-at="2021-09-16T11:20:17 CEST" duration-ms="443" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=2, description=valid username and password 2, password=testPassword2, username=testUsername2}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername2&password=testPassword2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://localhost:8080/login] but found [http://localhost:8080/?username=testUsername2&password=testPassword2]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at local.HLVTestApp.loginandsignuptests.PositiveLoginTests.verifySuccessfulLoginActionOnMainPage(PositiveLoginTests.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLoginActionOnMainPage -->
+        <test-method is-config="true" signature="tearDownAfterEach()[pri:0, instance:local.HLVTestApp.loginandsignuptests.PositiveLoginTests@14fc5f04]" started-at="2021-09-16T11:20:17 CEST" name="tearDownAfterEach" finished-at="2021-09-16T11:20:18 CEST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterEach -->
+      </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
+    </test> <!-- PositiveLoginOnMainPageTest2-FF -->
+  </suite> <!-- PositiveLoginTestSuite -->
 </testng-results>

@@ -1,5 +1,6 @@
 package local.HLVTestApp.pages;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -14,8 +15,8 @@ public class LoginFormPageObject extends BasePageObject{
 	private By formReturnToLoginLink = By.xpath("//a[@href='/login/']");
 	private By message = By.xpath("//h3[1]");
 	
-	public LoginFormPageObject(WebDriver driver) {
-		super(driver);
+	public LoginFormPageObject(WebDriver driver, Logger log) {
+		super(driver, log);
 	}
 
 	/** Execute log in */

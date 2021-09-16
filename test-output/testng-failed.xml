@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [ValidateLoginTestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="ValidateLoginTests(failed)">
+<suite name="Failed suite [PositiveLoginTestSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="local.HLVTestApp.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="PositiveLoginOnMainPageTest1-CH(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="local.HLVTestApp.APITests.API_ValidateLoginTests">
+      <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
         <methods>
-          <include name="API_ValidateLogin" invocation-numbers="5 6"/>
+          <include name="verifySuccessfulLoginActionOnMainPage" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="tearDownAfterEach"/>
         </methods>
-      </class> <!-- local.HLVTestApp.APITests.API_ValidateLoginTests -->
+      </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
     </classes>
-  </test> <!-- ValidateLoginTests(failed) -->
-</suite> <!-- Failed suite [ValidateLoginTestSuite] -->
+  </test> <!-- PositiveLoginOnMainPageTest1-CH(failed) -->
+  <test thread-count="5" name="PositiveLoginOnMainPageTest2-FF(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="local.HLVTestApp.loginandsignuptests.PositiveLoginTests">
+        <methods>
+          <include name="verifySuccessfulLoginActionOnMainPage" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="tearDownAfterEach"/>
+        </methods>
+      </class> <!-- local.HLVTestApp.loginandsignuptests.PositiveLoginTests -->
+    </classes>
+  </test> <!-- PositiveLoginOnMainPageTest2-FF(failed) -->
+</suite> <!-- Failed suite [PositiveLoginTestSuite] -->

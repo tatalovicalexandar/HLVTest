@@ -8,53 +8,56 @@ import local.HLVTestApp.base.CsvDataProviders;
 import local.HLVTestApp.pages.LoginFormPageObject;
 import local.HLVTestApp.pages.ResponsiveSocialLoginFormPageObject;
 
-public class PositiveLoginTests extends BaseTest{
+public class PositiveLoginTests extends BaseTest {
 
 	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)
 	public void verifySuccessfulLoginActionOnMainPage(Map<String, String> testData) {
-		
+
 		// Data from data provider
-		//String no = testData.get("no");
+		String no = testData.get("no");
 		String username = testData.get("username");
 		String password = testData.get("password");
-		//String description = testData.get("description");
-		
+		String description = testData.get("description");
+
+		// Initial starting test log
+		log.info("Starting verifySuccessfulLoginActionOnMainPageTest #" + no + " for " + description);
+
 		// Include test in test report
 		test = report.createTest("verifySuccessfulLoginActionOnMainPage");
-				
+
 		// Open main page
-		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
+		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver, log);
 		mainPage.openPage();
-		
-		//Execute login
+
+		// Execute login
 		mainPage.logIn(username, password);
-	
+
 		// Verification: New URL
 		Assert.assertEquals(mainPage.getCurrentUrl(), mainPage.getPageUrl() + "login");
 	}
-	
+
 	@Test(dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)
 	public void verifySuccessfulLoginActionOnLoginPage(Map<String, String> testData) {
-		
+
 		// Data from data provider
-		//String no = testData.get("no");
+		// String no = testData.get("no");
 		String username = testData.get("username");
 		String password = testData.get("password");
-		//String description = testData.get("description");
-		
+		// String description = testData.get("description");
+
 		// Include test in test report
 		test = report.createTest("verifySuccessfulLoginActionOnLoginPage");
-				
+
 		// Open main page
-		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver);
+		ResponsiveSocialLoginFormPageObject mainPage = new ResponsiveSocialLoginFormPageObject(driver, log);
 		mainPage.openPage();
-		
-		// Open Login Form page	
+
+		// Open Login Form page
 		LoginFormPageObject loginForm = mainPage.clickOnLogInButton();
-		
+
 		// Execute login
 		loginForm.logIn(username, password);
-		
+
 		// Verification: New URL
 		Assert.assertEquals(loginForm.getPageUrl(), loginForm.getCurrentUrl());
 
