@@ -22,6 +22,9 @@ public class TestListener extends BaseTest implements ITestListener{
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		}catch(NullPointerException e){
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		report.flush();
 	}

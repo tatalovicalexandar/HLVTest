@@ -9,11 +9,6 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-
-import local.HLVTestApp.reports.ExtentReporting;
-
 public class BasePageObject {
 
 	protected WebDriver driver;
