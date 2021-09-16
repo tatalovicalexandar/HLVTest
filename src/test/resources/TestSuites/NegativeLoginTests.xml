@@ -1,12 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="NegativeLoginUsernameOnMainPageTestSuite" verbose="1" parallel="none">
+<suite name="NegativeLoginTestSuite" verbose="1" parallel="none">
 
 	<listeners>
 		<listener class-name="local.HLVTestApp.listeners.TestListener"></listener>
 	</listeners>
 	
-	<test name="NegativeLoginTest-CH">
+	<test name="NegativeLoginTests-CH">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="local.HLVTestApp.loginandsignuptests.NegativeLoginTests">
@@ -14,7 +14,7 @@
 		</classes>
 	</test>
 	
-	<test name="NegativeLoginTest-FF">
+	<test name="NegativeLoginTests-FF">
 		<parameter name="browser" value="firefox"></parameter>
 		<classes>
 			<class name="local.HLVTestApp.loginandsignuptests.NegativeLoginTests">

@@ -6,7 +6,7 @@
 		<listener class-name="local.HLVTestApp.listeners.TestListener"></listener>
 	</listeners>
 	
-	<test name="FailedUserRegistrationTest1-CH">
+	<test name="NegativeSignUpTests-CH">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="local.HLVTestApp.loginandsignuptests.NegativeSignUpTests">
@@ -14,7 +14,7 @@
 		</classes>
 	</test>
 	
-	<test name="FailedUserRegistrationTest2-FF">
+	<test name="NegativeSignUpTests-FF">
 		<parameter name="browser" value="firefox"></parameter>
 		<classes>
 			<class name="local.HLVTestApp.loginandsignuptests.NegativeSignUpTests">

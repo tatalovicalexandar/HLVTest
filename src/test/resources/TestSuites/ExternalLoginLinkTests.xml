@@ -6,7 +6,7 @@
 			<listener class-name="local.HLVTestApp.listeners.TestListener"></listener>
 		</listeners>
 		
-		<test name="ExternalLoginLinkTest1-CH">
+		<test name="ExternalLoginLinkTests-CH">
 			<parameter name="browser" value="chrome"></parameter>
 			<classes>
 				<class name="local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests">
@@ -14,7 +14,7 @@
 			</classes>
 		</test>
 		
-		<test name="ExternalLoginLinkTest2-FF">
+		<test name="ExternalLoginLinkTests-FF">
 			<parameter name="browser" value="firefox"></parameter>
 			<classes>
 				<class name="local.HLVTestApp.loginandsignuptests.ExternalLoginLinkTests">
